@@ -1,0 +1,94 @@
+<modification>
+	<id>News</id>
+	<version>For OpenCart 1.5.x</version>
+	<vqmver>1.2.3</vqmver>
+	<author>MarketInSG</author>
+	<file name="admin/view/template/common/header.tpl">
+		<operation>
+			<search position="after"><![CDATA[
+				<li><a href="<?php echo $feed; ?>"><?php echo $text_feed; ?></a></li>
+			]]></search>
+			<add><![CDATA[
+				<li><a href="<?php echo $news; ?>">News</a></li>
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/controller/common/header.php">
+		<operation>
+			<search position="after"><![CDATA[
+				$this->data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');	
+			]]></search>
+			<add><![CDATA[
+				$this->data['news'] = $this->url->link('extension/news', 'token=' . $this->session->data['token'], 'SSL');	
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/view/theme/*/template/common/footer.tpl">
+		<operation>
+			<search position="before"><![CDATA[
+				<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+			]]></search>
+			<add><![CDATA[
+				<li><a href="index.php?route=information/news">Our News</a></li>
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/common/seo_url.php">
+		<operation>
+			<search position="before"><![CDATA[
+				if ($url[0] == 'information_id') {
+			]]></search>
+			<add><![CDATA[
+				if ($url[0] == 'news_id') {
+					$this->request->get['news_id'] = $url[1];
+				}	
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[
+				} elseif (isset($this->request->get['information_id'])) {
+			]]></search>
+			<add><![CDATA[
+				} elseif (isset($this->request->get['news_id'])) {
+					$this->request->get['route'] = 'information/news/news';
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA[
+				if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+			]]></search>
+			<add><![CDATA[
+				if (($data['route'] == 'information/news/news' && $key == 'news_id') || ($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA[
+				if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/product' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+			]]></search>
+			<add><![CDATA[
+				if (($data['route'] == 'information/news/news' && $key == 'news_id') || ($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/product' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/view/template/common/home.tpl">
+		<operation>
+			<search position="before"><![CDATA[
+				<?php if ($error_install) { ?>
+			]]></search>
+			<add><![CDATA[	
+				<?php 
+					$this->load->model('setting/news');
+					$results = $this->model_setting_news->getNews();
+					$json = json_decode($results['text'], true);
+				?>
+				<div id="marketinsg_news" class="attention" style="background-image:none; padding-left: 10px;">
+					<ul style="margin:0px; padding: 0px;">
+					<?php foreach ($json as $value) { ?>
+						<li style="margin: 0px 20px;"><?php echo $value['title']; ?></li>
+					<?php }	?>
+					</ul>
+				</div>
+			]]></add>
+		</operation>
+	</file>
+</modification>

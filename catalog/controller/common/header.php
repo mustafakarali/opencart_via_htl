@@ -31,7 +31,7 @@ class ControllerCommonHeader extends Controller {
 		} else {
 			$this->data['logo'] = '';
 		}		
-		
+
 		$this->language->load('common/header');
 		
 		$this->data['text_home'] = $this->language->get('text_home');
@@ -52,7 +52,7 @@ class ControllerCommonHeader extends Controller {
 		
 		// Daniel's robot detector
 		$status = true;
-		
+
 		if (isset($this->request->server['HTTP_USER_AGENT'])) {
 			$robots = explode("\n", trim($this->config->get('config_robots')));
 
@@ -138,7 +138,7 @@ class ControllerCommonHeader extends Controller {
 		} else {
 			$this->template = 'default/template/common/header.tpl';
 		}
-		
+
     	$this->render();
 	} 	
 }
