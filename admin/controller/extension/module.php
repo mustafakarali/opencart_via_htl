@@ -58,7 +58,7 @@ class ControllerExtensionModule extends Controller {
 		$this->data['extensions'] = array();
 						
 		$files = glob(DIR_APPLICATION . 'controller/module/*.php');
-		
+
 		if ($files) {
 			foreach ($files as $file) {
 				$extension = basename($file, '.php');

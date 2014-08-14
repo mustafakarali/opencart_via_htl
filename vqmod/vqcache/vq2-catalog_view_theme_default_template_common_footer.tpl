@@ -1,3 +1,4 @@
+</div>
 <div id="footer">
   <?php if ($informations) { ?>
   <div class="column">

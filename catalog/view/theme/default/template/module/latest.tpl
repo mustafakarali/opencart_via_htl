@@ -1,5 +1,7 @@
 <div class="box">
-  <div class="box-heading"><?php echo $heading_title; ?></div>
+  <div class="bott">
+      <span class="f1 fz14"><?php echo $heading_title; ?><i class="samebg jt1 f1"></i> </span>
+  </div>
   <div class="box-content">
     <div class="box-product">
       <?php foreach ($products as $product) { ?>
@@ -26,3 +28,4 @@
     </div>
   </div>
 </div>
+

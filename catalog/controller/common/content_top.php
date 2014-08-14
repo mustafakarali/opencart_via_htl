@@ -41,10 +41,10 @@ class ControllerCommonContentTop extends Controller {
 		$this->load->model('setting/extension');
 		
 		$extensions = $this->model_setting_extension->getExtensions('module');		
-		
+
 		foreach ($extensions as $extension) {
 			$modules = $this->config->get($extension['code'] . '_module');
-			
+
 			if ($modules) {
 				foreach ($modules as $module) {
 					if ($module['layout_id'] == $layout_id && $module['position'] == 'content_top' && $module['status']) {
