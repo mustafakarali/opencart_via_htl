@@ -48,7 +48,7 @@ class ControllerModuleCart extends Controller {
 		$this->data['totals'] = $total_data;
 		
 		$this->data['heading_title'] = $this->language->get('heading_title');
-		
+		$this->data['cart_number'] = $this->cart->countProducts();
 		$this->data['text_items'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total));
 		$this->data['text_empty'] = $this->language->get('text_empty');
 		$this->data['text_cart'] = $this->language->get('text_cart');

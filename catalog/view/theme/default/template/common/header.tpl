@@ -87,36 +87,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
             <input type="text" name="keyword" class="keysh nonebg f1">
             <input type="button" name="tjsh" class="tjsh nonebg f1">
         </div>
-        <div id="AllCart" class="Allcart">
-            <dl class="js_toggleCart cartWidth" id="cartContainer">
-                <dt id="cartInfo" class="navSp">
-                    <a rel="nofollow" class="navSp" href="#链向购物车">
-                        <span id="cartItem" class="navSp">
-                             <span class="navSp">
-                                 <span id="cartCount" class="samebg f1 White CartNum"><font class="f1">0</font></span>
-                                 <span id="cartText">购物车空了</span>
-                                 <span id="jticon" class="f1 samebg"></span>
-                             </span>
-                        </span>
-                    </a>
-                </dt>
-                <dd style="width: 280px; display: none;" id="cartInfoLoading">
-                    <p>Loading...</p>
-                </dd>
-                <!--<dd style="display: none;" id="cartEmptyInfo" class="dis CemptyBg">
-                       <div class="CartIcon"></div>
-                    <p>Your shopping cart is empty.</p>
-                </dd>
-                -->
-                <!--购物车有产品状态开始-->
-                <dd style="display: none;" id="cartEmptyInfo" class="CartHaveInfo dis">
-                    <span class="empty f1 c1">购物车中还没有商品，赶紧选购吧！</span>
-                </dd>
-
-                <!--购物车有产品状态结束-->
-                <dd id="scQuickEntry" style="display: none;"></dd>
-            </dl>
-        </div>
+        <?php echo $cart;?>
     </div>
     <div class="clear"></div>
     <div id="NavMenu" class="dis">
