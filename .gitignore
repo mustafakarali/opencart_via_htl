@@ -1,5 +1,6 @@
 # Windows:
 .idea
 image/cache/
-system/cache/
-system/logs/
+system/cache
+system/logs
+vqmod/logs
