@@ -187,7 +187,7 @@ a { outline:none;} /* for FF Chrome */
 .Lbox .box a.img{  width:186px; padding:2px 0; float:left; margin-bottom:5px; display:inline; text-align:center;}
 .Lbox .box a.img img{ width:166px; height:166px;}
 .Lbox .box a.title{ color:#363636; line-height:16px;float:left; padding:0 15px; }
-.lprotit{ border-bottom:2px solid #000; height:36px;}
+.lprotit{ border-bottom:2px solid #000; height:36px;border-left:1px solid #dde0e6;border-right: 1px solid #dde0e6;border-top: 1px solid #dde0e6;}
 .lbott{ border-bottom:2px solid #07b5ee; padding-left:5px;width:152px;height:36px; position:relative; }
 .lprotit span{width:152px; height:38px; color:#000; text-align:center; line-height:38px;}
 .Curr{ background:#f2f2f2; height:30px; line-height:30px; margin-top:10px;} 

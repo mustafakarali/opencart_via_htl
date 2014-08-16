@@ -1,4 +1,4 @@
----------- Date: 2014-08-15 10:07:55 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 08:35:06 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -13,1087 +13,7 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 10:08:29 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:09:16 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:11:54 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:14:57 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:22:55 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:23:40 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=product/special
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:23:51 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:24:11 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=information/information&amp;information_id=6
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:24:18 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:24:22 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=information/information&amp;information_id=4
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:24:27 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:24:37 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=information/sitemap
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:24:43 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:24:50 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=account/voucher
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:24:56 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:25:00 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=product/manufacturer
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:25:06 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:28:26 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:29:48 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:50:08 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:51:02 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:58:58 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 10:59:51 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:00:14 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:00:40 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:13:36 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:15:04 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:15:33 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:16:00 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:17:39 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:19:38 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=information/news/news&amp;news_id=1
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:20:10 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:22:16 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:26:05 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:36:10 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:37:24 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:37:49 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:38:52 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:44:24 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:44:31 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:46:11 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:46:54 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:47:20 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:47:58 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:50:28 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:50:59 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:51:38 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:56:01 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:56:31 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:59:29 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:59:47 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 11:59:54 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 12:00:03 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:09:00 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:09:58 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:39:52 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=information/news/news&amp;news_id=1
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:40:01 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:41:18 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:41:38 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:43:02 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:46:12 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 15:48:43 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:03:48 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:04:50 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:05:49 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:06:36 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:17:29 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:18:23 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:21:17 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:21:25 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=product/product&amp;path=57&amp;product_id=50
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:21:29 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:23:01 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:23:51 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 08:36:38 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /index.php?route=product/category&amp;path=20
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -1108,22 +28,7 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 16:25:48 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /index.php?route=product/category&amp;path=20_27
-MOD DETAILS:
-   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
-   id        : News
-   version   : For OpenCart 1.5.x
-   vqmver    : 1.2.3
-   author    : MarketInSG
-
-File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-
-----------------------------------------------------------------------
-
-
----------- Date: 2014-08-15 16:25:56 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 08:37:51 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /index.php?route=product/category&amp;path=20
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -1138,7 +43,7 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 16:28:53 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 08:38:07 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /index.php?route=product/category&amp;path=20
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -1153,7 +58,7 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 16:35:38 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 08:38:22 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /index.php?route=product/category&amp;path=20
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -1168,7 +73,112 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 16:55:51 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 08:40:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 08:55:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 08:56:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 08:59:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:00:13 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:01:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:01:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/compare
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:01:41 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -1183,7 +193,7 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 17:02:52 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 09:01:46 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /index.php?route=product/category&amp;path=20
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -1198,7 +208,7 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 17:10:45 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 09:06:06 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /index.php?route=product/category&amp;path=20
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -1213,7 +223,7 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 17:15:28 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 09:06:46 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /index.php?route=product/category&amp;path=20
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
@@ -1228,8 +238,1133 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-08-15 18:08:24 ~ IP : 127.0.0.1 ----------
+---------- Date: 2014-08-16 09:07:01 ~ IP : 127.0.0.1 ----------
 REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:07:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:07:13 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:09:24 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:09:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:09:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:11:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 09:11:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:40:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:47:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:48:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:48:40 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:49:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:49:14 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:49:23 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:49:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:50:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:51:35 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:51:46 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:53:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:54:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:55:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:56:05 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:56:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 10:59:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:01:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:03:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:03:47 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:05:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:08:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:09:38 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:09:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=20&amp;product_id=42
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:09:57 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:11:58 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:13:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:16:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:16:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:17:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:17:23 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:17:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=20&amp;product_id=42
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:18:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:19:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:20:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:21:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:21:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:22:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:22:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:23:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:24:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:24:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:25:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:25:04 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:25:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:25:57 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:26:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:26:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:28:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:28:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:29:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:29:46 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:29:57 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:31:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:31:34 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:31:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:32:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20&amp;sort=pd.name&amp;order=ASC
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:32:38 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20&amp;sort=p.price&amp;order=ASC
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:33:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:35:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20&amp;sort=p.price&amp;order=ASC
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 11:37:14 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20&amp;sort=p.price&amp;order=ASC
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 14:13:37 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 14:13:37 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 14:42:38 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 17:37:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 17:54:21 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 17:58:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20
+MOD DETAILS:
+   modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
+   id        : News
+   version   : For OpenCart 1.5.x
+   vqmver    : 1.2.3
+   author    : MarketInSG
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-08-16 17:58:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=20&amp;sort=pd.name&amp;order=ASC
 MOD DETAILS:
    modFile   : E:\WWW\opencart_v1.5.5.1_cn\vqmod/xml/news.xml
    id        : News

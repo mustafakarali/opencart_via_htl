@@ -82,7 +82,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 <div class="MRLAuto">
     <div class="clear"></div>
     <div class="Hd2 f1">
-        <a class="logo f1"><img src="<?php echo $logo; ?>"></a>
+        <a class="logo f1" href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>"></a>
         <div class="Search f1">
             <input type="text" name="keyword" class="keysh nonebg f1">
             <input type="button" name="tjsh" class="tjsh nonebg f1">

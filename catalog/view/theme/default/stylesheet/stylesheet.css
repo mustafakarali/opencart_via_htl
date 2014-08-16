@@ -33,7 +33,7 @@ p {
 	margin-bottom: 20px;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 a img {
 	border: none;
@@ -387,8 +387,17 @@ label {
 	color: #FFFFFF;
 }
 .breadcrumb {
-	color: #CCCCCC;
-	margin-bottom: 10px;
+    background: #f2f2f2;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.breadcrumb a{
+    color:#d20101;
+    padding: 0px 10px;
+}
+.breadcrumb .active{
+    color:#666666;
 }
 .success, .warning, .attention, .information {
 	padding: 10px 10px 10px 33px;
@@ -680,7 +689,6 @@ a.button:hover, input.button:hover {
 .box-product .image img {
 }
 .box-product .name a {
-	color: #38B0E3;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
@@ -697,6 +705,7 @@ a.button:hover, input.button:hover {
 	color: #b80101;
 	margin-bottom: 4px;
     padding: 3px 15px;
+    font-size: 15px;
 }
 .box-product .price-old {
 	color: #afb0b0;
@@ -932,16 +941,23 @@ ul.box-filter > li ul {
 	background: url('../image/add.png') left 60% no-repeat;
 }
 .product-grid {
-	width: 100%;
+	width: 936px;
 	overflow: auto;
+    border: 1px solid #dde0e6;
 }
 .product-grid > div {
-	width: 130px;
+	width: 183px;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 20px;
 	margin-bottom: 15px;
+    border-right: 1px solid #dde0e6;
+    border-bottom:1px solid #dde0e6; ;
 }
+.product-grid >div:hover{
+
+    border-right: 1px solid #b80101;
+}
+.product-grid .image{width: 186px;text-align: center;}
 #column-left + #column-right + #content .product-grid > div {
 	width: 125px;
 }
@@ -949,16 +965,19 @@ ul.box-filter > li ul {
 	display: block;
 	margin-bottom: 0px;
 }
-.product-grid .image img {
-	padding: 3px;
-	border: 1px solid #E7E7E7;
-}
 .product-grid .name a {
-	color: #38B0E3;
+	color: #363636;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
 	margin-bottom: 4px;
+}
+.product-grid .name a:hover{
+    color: #d20101;
+
+}
+.product-grid .name{
+    padding: 0 15px;
 }
 .product-grid .description {
 	display: none;
@@ -970,11 +989,13 @@ ul.box-filter > li ul {
 .product-grid .price {
 	display: block;
 	font-weight: bold;
-	color: #333333;
+	color: #b80101;
 	margin-bottom: 4px;
+    padding: 0 15px;
+    font-size: 15px;
 }
 .product-grid .price-old {
-	color: #F00;
+	color: #afb0b0;
 	text-decoration: line-through;
 }
 .product-grid .price-new {

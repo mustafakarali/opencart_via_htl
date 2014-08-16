@@ -44,6 +44,7 @@ class ControllerProductCategory extends Controller {
    		$this->data['breadcrumbs'][] = array(
        		'text'      => $this->language->get('text_home'),
 			'href'      => $this->url->link('common/home'),
+            'class'     => '',
        		'separator' => false
    		);	
 			
@@ -81,6 +82,7 @@ class ControllerProductCategory extends Controller {
 	       			$this->data['breadcrumbs'][] = array(
    	    				'text'      => $category_info['name'],
 						'href'      => $this->url->link('product/category', 'path=' . $path . $url),
+                        'class'     => '',
         				'separator' => $this->language->get('text_separator')
         			);
 				}
@@ -141,6 +143,7 @@ class ControllerProductCategory extends Controller {
 			$this->data['breadcrumbs'][] = array(
 				'text'      => $category_info['name'],
 				'href'      => $this->url->link('product/category', 'path=' . $this->request->get['path']),
+                'class'     => "active",
 				'separator' => $this->language->get('text_separator')
 			);
 								
@@ -239,7 +242,7 @@ class ControllerProductCategory extends Controller {
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
 					'name'        => $result['name'],
-					'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, 100) . '..',
+					'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, 200) . '..',
 					'price'       => $price,
 					'special'     => $special,
 					'tax'         => $tax,
@@ -392,7 +395,7 @@ class ControllerProductCategory extends Controller {
 				'common/footer',
 				'common/header'
 			);
-				
+
 			$this->response->setOutput($this->render());										
     	} else {
 			$url = '';
@@ -424,6 +427,7 @@ class ControllerProductCategory extends Controller {
 			$this->data['breadcrumbs'][] = array(
 				'text'      => $this->language->get('text_error'),
 				'href'      => $this->url->link('product/category', $url),
+                'class'     => '',
 				'separator' => $this->language->get('text_separator')
 			);
 				
