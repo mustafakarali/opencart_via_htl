@@ -7,7 +7,7 @@
   </div>
   <?php if ($products) { ?>
   <div class="product-filter">
-    <div class="display"><b><?php echo $text_display; ?></b> <?php echo $text_list; ?> <b>/</b> <a onclick="display('grid');"><?php echo $text_grid; ?></a></div>
+    <!--<div class="display"><b><?php echo $text_display; ?></b> <?php echo $text_list; ?> <b>/</b> <a onclick="display('grid');"><?php echo $text_grid; ?></a></div>-->
     <div class="limit"><b><?php echo $text_limit; ?></b>
       <select onchange="location = this.value;">
         <?php foreach ($limits as $limits) { ?>
@@ -31,7 +31,7 @@
       </select>
     </div>
   </div>
-  <div class="product-compare"><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></div>
+  <!--<div class="product-compare"><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></div>-->
     <div class="lprotit">
         <div class="lbott">
             <span class="f1 fz14"><?php echo $heading_title;?><i class="samebg jt1 f1"></i> </span>
@@ -64,8 +64,6 @@
       <div class="cart">
         <input type="button" value="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button" />
       </div>
-      <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><?php echo $button_wishlist; ?></a></div>
-      <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><?php echo $button_compare; ?></a></div>
     </div>
     <?php } ?>
   </div>
@@ -86,8 +84,8 @@ function display(view) {
 		$('.product-list > div').each(function(index, element) {
 			html  = '<div class="right">';
 			html += '  <div class="cart">' + $(element).find('.cart').html() + '</div>';
-			html += '  <div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
-			html += '  <div class="compare">' + $(element).find('.compare').html() + '</div>';
+			//html += '  <div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
+			//html += '  <div class="compare">' + $(element).find('.compare').html() + '</div>';
 			html += '</div>';			
 			
 			html += '<div class="left">';
@@ -149,8 +147,8 @@ function display(view) {
 			}
 						
 			html += '<div class="cart">' + $(element).find('.cart').html() + '</div>';
-			html += '<div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
-			html += '<div class="compare">' + $(element).find('.compare').html() + '</div>';
+			//html += '<div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
+			//html += '<div class="compare">' + $(element).find('.compare').html() + '</div>';
 			
 			$(element).html(html);
 		});	

@@ -1,7 +1,6 @@
 
 <?php if ($modules) { ?>
-<div class="Menu f1 dis">
-
+<div id="column-left">
     <?php foreach ($modules as $module) { ?>
         <?php echo $module; ?>
     <?php } ?>

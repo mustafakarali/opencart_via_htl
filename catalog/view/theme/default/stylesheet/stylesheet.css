@@ -60,7 +60,7 @@ label {
 }
 #column-left {
 	float: left;
-	width: 180px;
+	width: 190px;
 }
 #column-right {
 	float: right;
@@ -72,7 +72,7 @@ label {
     width: 938px;
 }
 #column-left + #column-right + #content, #column-left + #content {
-	margin-left: 195px;
+	/*margin-left: 195px;*/
 }
 #column-right + #content {
 	margin-right: 195px;
@@ -390,7 +390,7 @@ label {
     background: #f2f2f2;
     height: 30px;
     line-height: 30px;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 .breadcrumb a{
     color:#d20101;
@@ -718,6 +718,9 @@ a.button:hover, input.button:hover {
 	display: block;
 	margin-bottom: 4px;
 }
+.box-product .cart {
+    padding: 0 15px;
+}
 /* box category */
 ul.box-category, ul.box-category ul {
 	list-style: none;
@@ -1006,6 +1009,7 @@ ul.box-filter > li ul {
 }
 .product-grid .cart {
 	margin-bottom: 3px;
+    padding: 0 15px;
 }
 .product-grid .wishlist, .product-grid .compare {
 	margin-bottom: 3px;

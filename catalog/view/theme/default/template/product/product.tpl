@@ -1,11 +1,10 @@
 <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
-<div id="content"><?php echo $content_top; ?>
+<div id="content" class="f1 listr1"><?php echo $content_top; ?>
   <div class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
+    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>" class="<?php echo $breadcrumb['class']?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <h1><?php echo $heading_title; ?></h1>
   <div class="product-info">
     <?php if ($thumb || $images) { ?>
     <div class="left">
@@ -22,7 +21,10 @@
     </div>
     <?php } ?>
     <div class="right">
+
       <div class="description">
+        <h1 class="H1Tit"><?php echo $heading_title; ?></h1>
+          <h2>★【黑魅】2014年新功能升级，17档风量，6档无级调速，老幼/冷房风，540分钟预约/定时，贴心熄屏！　★热销100000台，现拍下立减80元，好评返现5元，最终成交低至214元！★7天无理由退货，15天内出现质量问题包退换，免费全国联保一年！ </h2>
         <?php if ($manufacturer) { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
         <?php } ?>
