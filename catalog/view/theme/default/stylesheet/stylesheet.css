@@ -6,7 +6,6 @@ html {
 body {
 	background-color: #ffffff;
 	color: #000000;
-	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
 }
@@ -69,7 +68,6 @@ label {
 #content {
 	min-height: 400px;
 	margin-bottom: 25px;
-    width: 938px;
 }
 #column-left + #column-right + #content, #column-left + #content {
 	/*margin-left: 195px;*/
@@ -557,20 +555,20 @@ table.radio tr.highlight:hover td {
 }
 /* button */
 a.button, input.button {
-	cursor: pointer;
-	color: #FFFFFF;
-	line-height: 12px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	background: url('../image/button.png') repeat-x;
-	-webkit-border-radius: 7px 7px 7px 7px;
-	-moz-border-radius: 7px 7px 7px 7px;
-	-khtml-border-radius: 7px 7px 7px 7px;
-	border-radius: 7px 7px 7px 7px;
-	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
-	-moz-box-shadow: 0px 2px 2px #DDDDDD;
-	box-shadow: 0px 2px 2px #DDDDDD;
+    cursor: pointer;
+    color: #FFFFFF;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background: url('../image/button.png') repeat-x;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -khtml-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 2px 2px #DDDDDD;
+    -moz-box-shadow: 0px 2px 2px #DDDDDD;
+    box-shadow: 0px 2px 2px #DDDDDD;
 }
 a.button {
 	display: inline-block;
@@ -1038,7 +1036,7 @@ ul.box-filter > li ul {
 	margin-right: 15px;
 }
 .product-info > .left + .right {
-	margin-left: 265px;
+	margin-left: 452px;
 }
 .product-info .image {
 	border: 1px solid #E7E7E7;
@@ -1451,10 +1449,6 @@ ul.box-filter > li ul {
 .cart-info table {
 	width: 100%;
 	margin-bottom: 15px;
-	border-collapse: collapse;
-	border-top: 1px solid #DDDDDD;
-	border-left: 1px solid #DDDDDD;
-	border-right: 1px solid #DDDDDD;
 }
 .cart-info td {
 	padding: 7px;
@@ -1477,6 +1471,7 @@ ul.box-filter > li ul {
 .cart-info tbody td {
 	vertical-align: top;
 	border-bottom: 1px solid #DDDDDD;
+    background: #fdf1f1;
 }
 .cart-info tbody .image img {
 	border: 1px solid #DDDDDD;
@@ -1494,6 +1489,11 @@ ul.box-filter > li ul {
 }
 .cart-info tbody .price, .cart-info tbody .total {
 	text-align: right;
+}
+.cart-info tbody .total{
+    color: #d20101;
+    font-size: 14px;
+    font-weight: bold;
 }
 .cart-info tbody span.stock {
 	color: #F00;
