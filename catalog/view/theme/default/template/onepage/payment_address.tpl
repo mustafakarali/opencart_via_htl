@@ -2,6 +2,18 @@
 <input type="radio" name="payment_address" value="existing" id="payment-address-existing" checked="checked" />
 <label for="payment-address-existing"><?php echo $text_address_existing; ?></label>
 <div id="payment-existing">
+
+    <?php foreach ($addresses as $address) { ?>
+        <?php if ($address['address_id'] == $address_id) { ?>
+        <dl>
+            <dt><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?></dt>
+            <dd><?php echo $address['country']; ?></dd>
+            <dd style="display: none"></dd>
+        </dl>
+        <?php } else { ?>
+        111
+        <?php } ?>
+    <?php } ?>
   <select name="address_id" style="width: 100%; margin-bottom: 15px;" size="5">
     <?php foreach ($addresses as $address) { ?>
     <?php if ($address['address_id'] == $address_id) { ?>
