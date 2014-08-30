@@ -5,7 +5,7 @@ class ControllerOnePageCheckout extends Controller {
 		if ((!$this->cart->hasProducts() && empty($this->session->data['vouchers'])) || (!$this->cart->hasStock() && !$this->config->get('config_stock_checkout'))) {
 	  		$this->redirect($this->url->link('checkout/cart'));
     	}
-        //没有登录
+        //没有登录 jalen
 		if(!$this->customer->isLogged()){
             $this->redirect($this->url->link('account/login'));
         }

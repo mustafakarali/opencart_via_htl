@@ -62,9 +62,11 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 </div>
             </div>
             <div class="r1 infome">
-                <span class="c1">淘拓在线欢迎您！</span>
-                <a class="acurr">登陆 </a>
-                <a>免费注册</a>
+                <?php if (!$logged) { ?>
+                <?php echo $text_welcome; ?>
+                <?php } else { ?>
+                <?php echo $text_logged; ?>
+                <?php } ?>
             </div>
             <!--登陆成功状态-->
             <div class="cginfome r1" style="display:none">
