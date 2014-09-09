@@ -160,7 +160,7 @@ function display(view) {
 }
 
 view = $.totalStorage('display');
-
+view = 'grid';
 if (view) {
 	display(view);
 } else {
