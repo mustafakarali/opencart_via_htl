@@ -1,5 +1,8 @@
 # Windows:
 .idea
-image/cache/
-system/cache/
-system/logs/
+image/cache/*
+system/cache/*
+system/logs/*
+vqmod/vqcache/*
+config.php
+admin/config.php
