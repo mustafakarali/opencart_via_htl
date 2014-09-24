@@ -13,10 +13,14 @@ $_['text_i_am_returning_customer'] = '如果您已经是本站会员，请直接
 $_['text_forgotten']               = '忘记密码？';
 
 // Entry
-$_['entry_email']                  = '邮箱地址：';
+$_['entry_email']                  = '邮箱：';
 $_['entry_password']               = '密码：';
 
 // Error
 $_['error_login']                  = '警告： 邮箱地址或密码不匹配！';
 $_['error_approved']               = '警告： 您的帐号还没有通过审核！';
+
+
+
+
 ?>

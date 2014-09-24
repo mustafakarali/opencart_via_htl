@@ -1,3 +1,6 @@
+
+<div class="Menu f1 dis">
+
 <ul>
     <?php foreach ($categories as $category) { ?>
     <li>
@@ -25,3 +28,4 @@
     <?php } ?>
 </ul>
 <div class="allfl"><a class="r1">全部商品分类</a></div>
+</div>

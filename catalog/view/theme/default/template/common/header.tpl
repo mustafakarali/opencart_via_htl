@@ -62,18 +62,11 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 </div>
             </div>
             <div class="r1 infome">
-                <span class="c1">淘拓在线欢迎您！</span>
-                <a class="acurr">登陆 </a>
-                <a>免费注册</a>
-            </div>
-            <!--登陆成功状态-->
-            <div class="cginfome r1" style="display:none">
-                <div class="yh"><span class="f1 c1"> Hi， chunzi_88 </span><a class="r1">退出</a></div>
-                <ul class="f1">
-                    <li><a>我的订单</a></li>
-                    <li><a>侍付款订单</a></li>
-                    <li><a>我的帐户</a></li>
-                </ul>
+                <?php if (!$logged) { ?>
+                <?php echo $text_welcome; ?>
+                <?php } else { ?>
+                <?php echo $text_logged; ?>
+                <?php } ?>
             </div>
         </div>
     </div>
@@ -82,7 +75,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 <div class="MRLAuto">
     <div class="clear"></div>
     <div class="Hd2 f1">
-        <a class="logo f1"><img src="<?php echo $logo; ?>"></a>
+        <a class="logo f1" href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>"></a>
         <div class="Search f1">
             <input type="text" name="keyword" class="keysh nonebg f1">
             <input type="button" name="tjsh" class="tjsh nonebg f1">

@@ -47,7 +47,7 @@ class ControllerOnePagePaymentAddress extends Controller {
 			//EOF
 		}
 		$this->data['addresses'] = $this->model_account_address->getAddresses();
-		
+
 		$this->load->model('account/customer_group');
 		
 		$customer_group_info = $this->model_account_customer_group->getCustomerGroup($this->customer->getCustomerGroupId());

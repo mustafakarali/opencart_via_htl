@@ -9,7 +9,8 @@ class ControllerProductProduct extends Controller {
 
 		$this->data['breadcrumbs'][] = array(
 			'text'      => $this->language->get('text_home'),
-			'href'      => $this->url->link('common/home'),			
+			'href'      => $this->url->link('common/home'),
+            'class'     => '',
 			'separator' => false
 		);
 		
@@ -35,6 +36,7 @@ class ControllerProductProduct extends Controller {
 					$this->data['breadcrumbs'][] = array(
 						'text'      => $category_info['name'],
 						'href'      => $this->url->link('product/category', 'path=' . $path),
+                        'class'     => '',
 						'separator' => $this->language->get('text_separator')
 					);
 				}
@@ -65,6 +67,7 @@ class ControllerProductProduct extends Controller {
 				$this->data['breadcrumbs'][] = array(
 					'text'      => $category_info['name'],
 					'href'      => $this->url->link('product/category', 'path=' . $this->request->get['path']),
+                    'class'     => '',
 					'separator' => $this->language->get('text_separator')
 				);
 			}
@@ -76,6 +79,7 @@ class ControllerProductProduct extends Controller {
 			$this->data['breadcrumbs'][] = array( 
 				'text'      => $this->language->get('text_brand'),
 				'href'      => $this->url->link('product/manufacturer'),
+                'class'     => '',
 				'separator' => $this->language->get('text_separator')
 			);	
 	
@@ -102,7 +106,8 @@ class ControllerProductProduct extends Controller {
 			if ($manufacturer_info) {	
 				$this->data['breadcrumbs'][] = array(
 					'text'	    => $manufacturer_info['name'],
-					'href'	    => $this->url->link('product/manufacturer/info', 'manufacturer_id=' . $this->request->get['manufacturer_id'] . $url),					
+					'href'	    => $this->url->link('product/manufacturer/info', 'manufacturer_id=' . $this->request->get['manufacturer_id'] . $url),
+                    'class'     => 'active',
 					'separator' => $this->language->get('text_separator')
 				);
 			}
@@ -150,6 +155,7 @@ class ControllerProductProduct extends Controller {
 			$this->data['breadcrumbs'][] = array(
 				'text'      => $this->language->get('text_search'),
 				'href'      => $this->url->link('product/search', $url),
+                'class'     => '',
 				'separator' => $this->language->get('text_separator')
 			); 	
 		}
@@ -218,6 +224,7 @@ class ControllerProductProduct extends Controller {
 			$this->data['breadcrumbs'][] = array(
 				'text'      => $product_info['name'],
 				'href'      => $this->url->link('product/product', $url . '&product_id=' . $this->request->get['product_id']),
+                'class'     => 'active',
 				'separator' => $this->language->get('text_separator')
 			);			
 			
@@ -523,6 +530,7 @@ class ControllerProductProduct extends Controller {
       		$this->data['breadcrumbs'][] = array(
         		'text'      => $this->language->get('text_error'),
 				'href'      => $this->url->link('product/product', $url . '&product_id=' . $product_id),
+                'class'     => 'active',
         		'separator' => $this->language->get('text_separator')
       		);			
 		

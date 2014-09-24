@@ -5,7 +5,6 @@
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <h1><?php echo $heading_title; ?></h1>
   <div id="onepage-checkout">
     <?php if (!$logged) { ?>
 		<div style="padding-bottom:5px;">

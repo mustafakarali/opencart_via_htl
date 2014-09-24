@@ -2,6 +2,34 @@
 <input type="radio" name="payment_address" value="existing" id="payment-address-existing" checked="checked" />
 <label for="payment-address-existing"><?php echo $text_address_existing; ?></label>
 <div id="payment-existing">
+
+    <?php foreach ($addresses as $address) { ?>
+        <?php if ($address['address_id'] == $address_id) { ?>
+            <dl class="item selected ">
+                <dt><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?></dt>
+                <dd>
+                    <p class="tel">1598947****</p>
+                    <p><?php echo $address['country']; ?> <?php echo $address['zone']; ?>  <?php echo $address['city']; ?></p>
+                    <p><?php echo $address['address_1']; ?></p>
+                </dd>
+                <dd style="display:none">
+                    <input type="radio" name="address_id" class="addressId" value="<?php echo $address['address_id']?>">
+                </dd>
+            </dl>
+        <?php } else { ?>
+            <dl class="item  ">
+                <dt><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?></dt>
+                <dd>
+                    <p class="tel">1598947****</p>
+                    <p><?php echo $address['country']; ?> <?php echo $address['zone']; ?>  <?php echo $address['city']; ?></p>
+                    <p><?php echo $address['address_1']; ?></p>
+                </dd>
+                <dd style="display:none">
+                    <input type="radio" name="address_id" class="addressId" value="<?php echo $address['address_id']?>">
+                </dd>
+            </dl>
+        <?php } ?>
+    <?php } ?>
   <select name="address_id" style="width: 100%; margin-bottom: 15px;" size="5">
     <?php foreach ($addresses as $address) { ?>
     <?php if ($address['address_id'] == $address_id) { ?>

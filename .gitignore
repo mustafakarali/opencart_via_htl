@@ -4,5 +4,6 @@ image/cache/*
 system/cache/*
 system/logs/*
 vqmod/vqcache/*
+vqmod/logs/*
 config.php
 admin/config.php

@@ -9,20 +9,22 @@
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <h1><?php echo $heading_title; ?></h1>
-  <p><?php echo $text_account_already; ?></p>
+  <div class="login-content">
+  <div class="right">
+  <h2><?php echo $heading_title; ?></h2>
+  <!--<p><?php echo $text_account_already; ?></p>-->
   <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
-    <h2><?php echo $text_your_details; ?></h2>
+    <!--<h2><?php echo $text_your_details; ?></h2>-->
     <div class="content">
       <table class="form">
-        <tr>
+        <tr style="display: none;">
           <td><span class="required">*</span> <?php echo $entry_firstname; ?></td>
           <td><input type="text" name="firstname" value="<?php echo $firstname; ?>" />
             <?php if ($error_firstname) { ?>
             <span class="error"><?php echo $error_firstname; ?></span>
             <?php } ?></td>
         </tr>
-        <tr>
+        <tr style="display: none;">
           <td><span class="required">*</span> <?php echo $entry_lastname; ?></td>
           <td><input type="text" name="lastname" value="<?php echo $lastname; ?>" />
             <?php if ($error_lastname) { ?>
@@ -31,28 +33,45 @@
         </tr>
         <tr>
           <td><span class="required">*</span> <?php echo $entry_email; ?></td>
-          <td><input type="text" name="email" value="<?php echo $email; ?>" />
+          <td><input type="text" name="email" class="form-control" value="<?php echo $email; ?>" placeholder="Enter Email" />
             <?php if ($error_email) { ?>
             <span class="error"><?php echo $error_email; ?></span>
             <?php } ?></td>
         </tr>
-        <tr>
+        <tr style="display: none;">
           <td><span class="required">*</span> <?php echo $entry_telephone; ?></td>
           <td><input type="text" name="telephone" value="<?php echo $telephone; ?>" />
             <?php if ($error_telephone) { ?>
             <span class="error"><?php echo $error_telephone; ?></span>
             <?php } ?></td>
         </tr>
-        <tr>
+        <tr style="display: none;">
           <td><?php echo $entry_fax; ?></td>
           <td><input type="text" name="fax" value="<?php echo $fax; ?>" /></td>
         </tr>
+        <!--password start-->
+          <tr>
+              <td><span class="required">*</span> <?php echo $entry_password; ?></td>
+              <td><input type="password" name="password" class="form-control" value="<?php echo $password; ?>" placeholder="Password" />
+                  <?php if ($error_password) { ?>
+                  <span class="error"><?php echo $error_password; ?></span>
+                  <?php } ?></td>
+          </tr>
+          <tr>
+              <td><span class="required">*</span> <?php echo $entry_confirm; ?></td>
+              <td><input type="password" name="confirm" class="form-control" value="<?php echo $confirm; ?>" placeholder="Confirm Password" />
+                  <?php if ($error_confirm) { ?>
+                  <span class="error"><?php echo $error_confirm; ?></span>
+                  <?php } ?></td>
+          </tr>
+
+          <!--password end-->
       </table>
     </div>
-    <h2><?php echo $text_your_address; ?></h2>
-    <div class="content">
+    <!--<h2><?php echo $text_your_address; ?></h2>-->
+    <div class="content" style="display: none">
       <table class="form">
-        <tr>
+        <tr style="display: none;">
           <td><?php echo $entry_company; ?></td>
           <td><input type="text" name="company" value="<?php echo $company; ?>" /></td>
         </tr>        
@@ -135,7 +154,7 @@
         </tr>
       </table>
     </div>
-    <h2><?php echo $text_your_password; ?></h2>
+    <!--<h2><?php echo $text_your_password; ?></h2>
     <div class="content">
       <table class="form">
         <tr>
@@ -173,25 +192,30 @@
         </tr>
       </table>
     </div>
+
+    -->
     <?php if ($text_agree) { ?>
     <div class="buttons">
-      <div class="right"><?php echo $text_agree; ?>
+      <div class="left margin-l"><?php echo $text_agree; ?>
         <?php if ($agree) { ?>
         <input type="checkbox" name="agree" value="1" checked="checked" />
         <?php } else { ?>
         <input type="checkbox" name="agree" value="1" />
         <?php } ?>
-        <input type="submit" value="<?php echo $button_continue; ?>" class="button" />
+        <input type="submit" value="" class="btn btn-register" />
       </div>
     </div>
     <?php } else { ?>
     <div class="buttons">
-      <div class="right">
-        <input type="submit" value="<?php echo $button_continue; ?>" class="button" />
+      <div class="left">
+        <input type="submit" value="" class="btn btn-register" />
       </div>
     </div>
     <?php } ?>
+
   </form>
+  </div>
+  </div>
   <?php echo $content_bottom; ?></div>
 <script type="text/javascript"><!--
 $('input[name=\'customer_group_id\']:checked').live('change', function() {

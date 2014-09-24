@@ -15,10 +15,13 @@
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <h1><?php echo $heading_title; ?>
-    <?php if ($weight) { ?>
-    &nbsp;(<?php echo $weight; ?>)
-    <?php } ?>
+  <div class="cart-box">
+  <h1 class="c4  bt">
+      <font class="Size16"><?php echo $heading_title; ?>
+            <?php if ($weight) { ?>
+            &nbsp;(<?php echo $weight; ?>)
+            <?php } ?>
+      </font>
   </h1>
   <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
     <div class="cart-info">
@@ -75,6 +78,7 @@
       </table>
     </div>
   </form>
+  </div>
   <?php if ($coupon_status || $voucher_status || $reward_status || $shipping_status) { ?>
   <h2><?php echo $text_next; ?></h2>
   <div class="content">
@@ -185,14 +189,13 @@
       <?php foreach ($totals as $total) { ?>
       <tr>
         <td class="right"><b><?php echo $total['title']; ?>:</b></td>
-        <td class="right"><?php echo $total['text']; ?></td>
+        <td class="right"><strong class="c4 fz24"><?php echo $total['text']; ?></strong></td>
       </tr>
       <?php } ?>
     </table>
   </div>
   <div class="buttons">
-    <div class="right"><a href="<?php echo $checkout; ?>" class="button"><?php echo $button_checkout; ?></a></div>
-    <div class="center"><a href="<?php echo $continue; ?>" class="button"><?php echo $button_shopping; ?></a></div>
+      <div class="NextBtn samebtn f1 right"><a  class="NextButton NoInputBg" name="LoginButton" href="<?php echo $checkout; ?>"></a></div>
   </div>
   <?php echo $content_bottom; ?></div>
 <script type="text/javascript"><!--

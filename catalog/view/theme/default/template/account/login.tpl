@@ -12,30 +12,24 @@
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <h1><?php echo $heading_title; ?></h1>
   <div class="login-content">
-    <div class="left">
-      <h2><?php echo $text_new_customer; ?></h2>
-      <div class="content">
-        <p><b><?php echo $text_register; ?></b></p>
-        <p><?php echo $text_register_account; ?></p>
-        <a href="<?php echo $register; ?>" class="button"><?php echo $button_continue; ?></a></div>
-    </div>
     <div class="right">
       <h2><?php echo $text_returning_customer; ?></h2>
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
         <div class="content">
-          <p><?php echo $text_i_am_returning_customer; ?></p>
-          <b><?php echo $entry_email; ?></b><br />
-          <input type="text" name="email" value="<?php echo $email; ?>" />
+          <b><?php echo $entry_email; ?></b>
+          <input type="text" name="email" value="<?php echo $email; ?>" class="form-control" placeholder="Enter email" />
           <br />
           <br />
-          <b><?php echo $entry_password; ?></b><br />
-          <input type="password" name="password" value="<?php echo $password; ?>" />
+          <b><?php echo $entry_password; ?></b>
+          <input type="password" name="password" value="<?php echo $password; ?>" class="form-control" placeholder="Password"  />
           <br />
-          <a href="<?php echo $forgotten; ?>"><?php echo $text_forgotten; ?></a><br />
+            <br/>
+          <a href="<?php echo $forgotten; ?>"><?php echo $text_forgotten; ?></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="<?php echo $register; ?>" ><?php echo $text_new_register; ?></a><br />
           <br />
-          <input type="submit" value="<?php echo $button_login; ?>" class="button" />
+          <input type="submit"  class="btn btn-primary" value="" />
           <?php if ($redirect) { ?>
           <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
           <?php } ?>

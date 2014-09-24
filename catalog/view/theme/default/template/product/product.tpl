@@ -1,11 +1,10 @@
 <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
-<div id="content"><?php echo $content_top; ?>
+<div id="content" class="f1 listr1"><?php echo $content_top; ?>
   <div class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
+    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>" class="<?php echo $breadcrumb['class']?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <h1><?php echo $heading_title; ?></h1>
   <div class="product-info">
     <?php if ($thumb || $images) { ?>
     <div class="left">
@@ -22,7 +21,9 @@
     </div>
     <?php } ?>
     <div class="right">
+
       <div class="description">
+        <h1 class="H1Tit"><?php echo $heading_title; ?></h1>
         <?php if ($manufacturer) { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
         <?php } ?>
@@ -34,14 +35,14 @@
       <?php if ($price) { ?>
       <div class="price"><?php echo $text_price; ?>
         <?php if (!$special) { ?>
-        <?php echo $price; ?>
+          <span class="T1 c4 fz24"><?php echo $price; ?></span>
         <?php } else { ?>
         <span class="price-old"><?php echo $price; ?></span> <span class="price-new"><?php echo $special; ?></span>
         <?php } ?>
         <br />
         <?php if ($tax) { ?>
-        <span class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span><br />
-        <?php } ?>
+          <span class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span><br />
+          <?php } ?>
         <?php if ($points) { ?>
         <span class="reward"><small><?php echo $text_points; ?> <?php echo $points; ?></small></span><br />
         <?php } ?>
@@ -202,14 +203,17 @@
       </div>
       <?php } ?>
       <div class="cart">
-        <div><?php echo $text_qty; ?>
-          <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
-          <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
-          &nbsp;
-          <input type="button" value="<?php echo $button_cart; ?>" id="button-cart" class="button" />
-          <span>&nbsp;&nbsp;<?php echo $text_or; ?>&nbsp;&nbsp;</span>
-          <span class="links"><a onclick="addToWishList('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a><br />
-            <a onclick="addToCompare('<?php echo $product_id; ?>');"><?php echo $button_compare; ?></a></span>
+        <div>
+            <span class="c1"><?php echo $text_qty; ?></span>
+            <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" /><br/><br/>
+            <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
+            &nbsp;
+            <input type="button" value="" id="button-buy-now" class="btn btn-buy" />
+            <input type="button" value="" id="button-cart" class="CartJoin border-none samebtn" />
+            <br/>
+            <span class="links">
+                <i class="samebtn like f1"></i><a class="f1" onclick="addToWishList('<?php echo $product_id; ?>')">收藏产品</a>
+            </span>
         </div>
         <?php if ($minimum > 1) { ?>
         <div class="minimum"><?php echo $text_minimum; ?></div>
@@ -357,20 +361,48 @@ $('#button-cart').bind('click', function() {
 						$('#option-' + i).after('<span class="error">' + json['error']['option'][i] + '</span>');
 					}
 				}
-			} 
-			
+			}
+
+            if (json['redirect']) {
+                //location = json['redirect'];
+            }
 			if (json['success']) {
-				$('#notification').html('<div class="success" style="display: none;">' + json['success'] + '<img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>');
+				$('#notification').html('<div class="success" style="display: none;">' + json['success'] + '<img src="catalog/view/theme/default/image/close.png" alt="" class="close" /><br/><a href="/index.php?route=checkout/cart" class="J_TCheckOut tb-cart-checkout" title="去购物车结算" >去购物车结算</a></div>');
 					
 				$('.success').fadeIn('slow');
 					
 				$('#cart-total').html(json['total']);
 				
-				$('html, body').animate({ scrollTop: 0 }, 'slow'); 
+				//$('html, body').animate({ scrollTop: 0 }, 'slow');
+
+                getCenter($('#notification'));
+
 			}	
 		}
 	});
 });
+
+    $("#button-buy-now").bind("click",function(){
+        $.ajax({
+            url: 'index.php?route=checkout/cart/add',
+            type: 'post',
+            data: $('.product-info input[type=\'text\'], .product-info input[type=\'hidden\'], .product-info input[type=\'radio\']:checked, .product-info input[type=\'checkbox\']:checked, .product-info select, .product-info textarea'),
+            dataType: 'json',
+            success: function(json) {
+                $('.success, .warning, .attention, information, .error').remove();
+
+                if (json['error']) {
+                    if (json['error']['option']) {
+                        for (i in json['error']['option']) {
+                            $('#option-' + i).after('<span class="error">' + json['error']['option'][i] + '</span>');
+                        }
+                    }
+                }
+                window.location.href = "index.php?route=onepage/checkout";
+            }
+        });
+
+    });
 //--></script>
 <?php if ($options) { ?>
 <script type="text/javascript" src="catalog/view/javascript/jquery/ajaxupload.js"></script>

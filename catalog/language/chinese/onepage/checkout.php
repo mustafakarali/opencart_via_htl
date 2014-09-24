@@ -1,14 +1,14 @@
 <?php
 // Heading 
-$_['heading_title']                  = 'Checkout';
+$_['heading_title']                  = '结算';
 
 //Button
 $_['button_save']                      = 'Save Details';
 $_['button_reset']                      = 'Reset Form';
 
 // Text
-$_['text_cart']                      = 'Shopping Cart';
-$_['text_checkout_payment_address']  = 'Step 1: Billing Details';
+$_['text_cart']                      = '购物车';
+$_['text_checkout_payment_address']  = '我的收货地址';
 $_['text_checkout_payment_shipping_address']  = 'Step 1: Billing &amp; Delivery Details';
 $_['text_checkout_shipping_address'] = 'Delivery Details';
 $_['text_checkout_shipping_method']  = 'Step 2: Delivery Method';
