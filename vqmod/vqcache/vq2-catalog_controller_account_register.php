@@ -89,8 +89,15 @@ class ControllerAccountRegister extends Controller {
     	$this->data['entry_password'] = $this->language->get('entry_password');
     	$this->data['entry_confirm'] = $this->language->get('entry_confirm');
 
+$this->data['entry_captcha'] = $this->language->get('entry_captcha');$this->data['change_captcha'] = $this->language->get('change_captcha');
 		$this->data['button_continue'] = $this->language->get('button_continue');
     
+
+			if (isset($this->error['captcha'])) {
+			$this->data['error_captcha'] = $this->error['captcha'];
+		} else {
+			$this->data['error_captcha'] = '';
+		}	
 		if (isset($this->error['warning'])) {
 			$this->data['error_warning'] = $this->error['warning'];
 		} else {
@@ -177,6 +184,12 @@ class ControllerAccountRegister extends Controller {
 		
     	$this->data['action'] = $this->url->link('account/register', '', 'SSL');
 		
+
+			if (isset($this->request->post['captcha'])) {
+         $this->data['captcha'] = $this->request->post['captcha'];
+      } else {
+         $this->data['captcha'] = '';
+      }
 		if (isset($this->request->post['firstname'])) {
     		$this->data['firstname'] = $this->request->post['firstname'];
 		} else {
@@ -345,11 +358,25 @@ class ControllerAccountRegister extends Controller {
 			'common/footer',
 			'common/header'	
 		);
-
+				
 		$this->response->setOutput($this->render());	
   	}
 
+public function captcha() {
+		$this->load->library('captcha');
+
+		$captcha = new Captcha();
+
+		$this->session->data['captcha'] = $captcha->getCode();
+
+		$captcha->showImage();
+	}
+			
   	protected function validate() {
+if (empty($this->session->data['captcha']) || ($this->session->data['captcha'] != $this->request->post['captcha'])) {
+      		$this->error['captcha'] = $this->language->get('error_captcha');
+    	}
+		
     	/*if ((utf8_strlen($this->request->post['firstname']) < 1) || (utf8_strlen($this->request->post['firstname']) > 32)) {
       		$this->error['firstname'] = $this->language->get('error_firstname');
     	}

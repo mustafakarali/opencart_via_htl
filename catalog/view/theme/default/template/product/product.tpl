@@ -24,7 +24,6 @@
 
       <div class="description">
         <h1 class="H1Tit"><?php echo $heading_title; ?></h1>
-          <h2>★【黑魅】2014年新功能升级，17档风量，6档无级调速，老幼/冷房风，540分钟预约/定时，贴心熄屏！　★热销100000台，现拍下立减80元，好评返现5元，最终成交低至214元！★7天无理由退货，15天内出现质量问题包退换，免费全国联保一年！ </h2>
         <?php if ($manufacturer) { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
         <?php } ?>
@@ -206,10 +205,11 @@
       <div class="cart">
         <div>
             <span class="c1"><?php echo $text_qty; ?></span>
-          <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" /><br/>
-          <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
-          &nbsp;
-          <input type="button" value="" id="button-cart" class="CartJoin border-none samebtn" />
+            <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" /><br/><br/>
+            <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
+            &nbsp;
+            <input type="button" value="" id="button-buy-now" class="btn btn-buy" />
+            <input type="button" value="" id="button-cart" class="CartJoin border-none samebtn" />
             <br/>
             <span class="links">
                 <i class="samebtn like f1"></i><a class="f1" onclick="addToWishList('<?php echo $product_id; ?>')">收藏产品</a>
@@ -364,7 +364,7 @@ $('#button-cart').bind('click', function() {
 			}
 
             if (json['redirect']) {
-                location = json['redirect'];
+                //location = json['redirect'];
             }
 			if (json['success']) {
 				$('#notification').html('<div class="success" style="display: none;">' + json['success'] + '<img src="catalog/view/theme/default/image/close.png" alt="" class="close" /><br/><a href="/index.php?route=checkout/cart" class="J_TCheckOut tb-cart-checkout" title="去购物车结算" >去购物车结算</a></div>');
@@ -381,6 +381,28 @@ $('#button-cart').bind('click', function() {
 		}
 	});
 });
+
+    $("#button-buy-now").bind("click",function(){
+        $.ajax({
+            url: 'index.php?route=checkout/cart/add',
+            type: 'post',
+            data: $('.product-info input[type=\'text\'], .product-info input[type=\'hidden\'], .product-info input[type=\'radio\']:checked, .product-info input[type=\'checkbox\']:checked, .product-info select, .product-info textarea'),
+            dataType: 'json',
+            success: function(json) {
+                $('.success, .warning, .attention, information, .error').remove();
+
+                if (json['error']) {
+                    if (json['error']['option']) {
+                        for (i in json['error']['option']) {
+                            $('#option-' + i).after('<span class="error">' + json['error']['option'][i] + '</span>');
+                        }
+                    }
+                }
+                window.location.href = "index.php?route=onepage/checkout";
+            }
+        });
+
+    });
 //--></script>
 <?php if ($options) { ?>
 <script type="text/javascript" src="catalog/view/javascript/jquery/ajaxupload.js"></script>

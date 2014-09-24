@@ -68,15 +68,6 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 <?php echo $text_logged; ?>
                 <?php } ?>
             </div>
-            <!--登陆成功状态-->
-            <div class="cginfome r1" style="display:none">
-                <div class="yh"><span class="f1 c1"> Hi， chunzi_88 </span><a class="r1">退出</a></div>
-                <ul class="f1">
-                    <li><a>我的订单</a></li>
-                    <li><a>侍付款订单</a></li>
-                    <li><a>我的帐户</a></li>
-                </ul>
-            </div>
         </div>
     </div>
 </div>

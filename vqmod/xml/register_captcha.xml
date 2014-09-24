@@ -1,0 +1,92 @@
+<modification>
+    <id>gister_Captcha</id>
+    <file name="catalog/view/theme/default/template/account/register.tpl">
+        <operation>
+            <search position="before" ><![CDATA[<!--password end-->]]></search>
+            <add><![CDATA[
+          <tr>
+              <td><span class="required">*</span> <?php echo $entry_captcha; ?></td>
+              <td><input type="text" name="captcha" class="form-control" value="<?php echo $captcha; ?>" placeholder="Captcha" />
+                <?php if ($error_captcha) { ?>
+                <span class="error"><?php echo $error_captcha; ?></span>
+                <?php } ?>
+              </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+                <img src="index.php?route=account/register/captcha" alt="" id="reg-captcha" />
+                <span class="c1 line-h"><?php echo $change_captcha;?><a></span>
+            </td>
+          </tr>
+          <script>
+            $(document).ready(function(){
+                $(".refresh-captcha").click(function(){
+                    var randnum = Math.random();
+                    $("#reg-captcha").attr("src","index.php?route=account/register/captcha/"+randnum);
+             })
+            })
+          </script>
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/controller/account/register.php">
+        <operation>
+            <search position="before" ><![CDATA[$this->data['button_continue'] = $this->language->get('button_continue');]]></search>
+            <add><![CDATA[$this->data['entry_captcha'] = $this->language->get('entry_captcha');$this->data['change_captcha'] = $this->language->get('change_captcha');]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[if (isset($this->error['warning'])) {]]></search>
+            <add><![CDATA[
+			if (isset($this->error['captcha'])) {
+			$this->data['error_captcha'] = $this->error['captcha'];
+		} else {
+			$this->data['error_captcha'] = '';
+		}	]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[if (isset($this->request->post['firstname'])) {]]></search>
+            <add><![CDATA[
+			if (isset($this->request->post['captcha'])) {
+         $this->data['captcha'] = $this->request->post['captcha'];
+      } else {
+         $this->data['captcha'] = '';
+      }]]></add>
+        </operation>
+
+        <operation error="skip">
+            <search position="after" ><![CDATA[protected function validate() {]]></search>
+            <add><![CDATA[if (empty($this->session->data['captcha']) || ($this->session->data['captcha'] != $this->request->post['captcha'])) {
+      		$this->error['captcha'] = $this->language->get('error_captcha');
+    	}
+		]]></add>
+        </operation>
+
+        <operation>
+            <search position="before"><![CDATA[protected function validate() {]]></search>
+            <add><![CDATA[public function captcha() {
+		$this->load->library('captcha');
+
+		$captcha = new Captcha();
+
+		$this->session->data['captcha'] = $captcha->getCode();
+
+		$captcha->showImage();
+	}
+			]]></add>
+        </operation>
+
+    </file>
+
+    <file name="catalog/language/chinese/account/register.php">
+        <operation>
+            <search position="after" ><![CDATA[$_['heading_title']        = '用户注册';]]></search>
+            <add><![CDATA[
+			$_['entry_captcha']        = '验证码:';
+			$_['error_captcha']        = '验证码错误';
+			$_['change_captcha']       = '看不清, <a href="javascript:void(0)" class="refresh-captcha c4 ">换一张<a>';
+			]]></add>
+        </operation>
+    </file>
+
+</modification>

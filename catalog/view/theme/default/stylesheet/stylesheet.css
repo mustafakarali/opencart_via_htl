@@ -20,6 +20,7 @@ h1, .welcome {
 	font-size: 32px;
 	font-weight: normal;
 	text-shadow: 0 0 1px rgba(0, 0, 0, .01);
+    height: 40px;
 }
 h2 {
 	color: #000000;
@@ -457,7 +458,7 @@ table.form {
 	margin-bottom: 20px;
 }
 table.form tr td:first-child {
-	width: 150px;
+	width: 10%;
 }
 table.form > * > * > td {
 	color: #000000;
@@ -775,10 +776,9 @@ ul.box-filter > li ul {
 }
 /* content */
 #content .content {
-	padding: 10px;
+	padding: 30px 10px 10px 55px;
 	overflow: auto;
-	margin-bottom: 20px;
-	border: 1px solid #EEEEEE;
+
 }
 #content .content .left {
 	float: left;
@@ -787,6 +787,19 @@ ul.box-filter > li ul {
 #content .content .right {
 	float: right;
 	width: 49%;
+}
+.content .form-control{
+    border: 1px solid #ccc;
+    width: 272px;
+    height: 22px;
+    padding: 6px 12px;
+    font-size: 14px;
+    outline: 0;
+}
+
+.content .form-control:hover{
+    border-color: #d20101;
+    outline: 0;
 }
 /* category */
 .category-info {
@@ -1045,7 +1058,7 @@ ul.box-filter > li ul {
 	text-align: center;
 }
 .product-info .image-additional {
-	width: 260px;
+	width: 452px;
 	margin-left: -10px;
 	clear: both;
 	overflow: hidden;
@@ -1305,13 +1318,14 @@ ul.box-filter > li ul {
 	float: left;
 	width: 48%;
 }
-.login-content .right {
-	float: right;
-	width: 48%
-}
 .login-content .left .content, .login-content .right .content {
 	min-height: 190px;
 }
+
+.login-content .right{border: 1px solid #dde0e6;
+    border-top:2px solid #d20101;}
+
+.login-content .right h2{padding: 20px 0 0 20px;}
 /* orders */
 .order-list {
 	margin-bottom: 10px;
@@ -1656,3 +1670,55 @@ ul.box-filter > li ul {
 .banner div img {
 	margin-bottom: 20px;
 }
+
+.btn{
+    background:url(../image/btn.png) no-repeat;
+}
+.btn-primary{
+    background-position: 0px -157px;
+    width: 212px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+.btn-primary:hover{background-position: 0px -196px;
+    width: 212px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.btn-register{
+    background-position: 0 -280px;
+    width: 212px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+.btn-register:hover{
+    background-position: 0 -241px;
+    width: 212px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.btn-buy{
+    background-position: 0 0;
+    width: 202px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+}
+.btn-buy:hover{
+    background-position: 0 -39px;
+    width: 202px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+}
+.margin-l{margin-left: 163px;}

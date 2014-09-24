@@ -1,0 +1,83 @@
+<modification>
+	<id>Admin_Captcha</id>
+	<file name="admin/view/template/common/login.tpl">
+		<operation>
+			<search position="before" ><![CDATA[<a href="<?php echo $forgotten; ?>"><?php echo $text_forgotten; ?></a>]]></search>
+			<add><![CDATA[
+			<br />
+              <?php echo $entry_captcha; ?><br />
+              <input type="text" name="captcha" value="<?php echo $captcha; ?>" />
+               <br />
+                <img src="index.php?route=common/login/captcha" alt="" />
+                <?php if ($error_captcha) { ?>
+                <span class="error"><?php echo $error_captcha; ?></span>
+                <?php } ?> 
+			   <br />
+			]]></add>
+		</operation>
+	</file>
+    <file name="admin/controller/common/login.php">
+		 <operation>
+			<search position="before" ><![CDATA[$this->data['button_login'] = $this->language->get('button_login');]]></search>
+			<add><![CDATA[$this->data['entry_captcha'] = $this->language->get('entry_captcha');]]></add>
+		 </operation>
+		 <operation>
+			<search position="before"><![CDATA[if (isset($this->error['warning'])) {]]></search>
+			<add><![CDATA[
+			if (isset($this->error['captcha'])) {
+			$this->data['error_captcha'] = $this->error['captcha'];
+		} else {
+			$this->data['error_captcha'] = '';
+		}	]]></add>
+		 </operation>
+		 <operation>
+			<search position="before"><![CDATA[if (isset($this->request->get['route'])) {]]></search>
+			<add><![CDATA[
+			if (isset($this->request->post['captcha'])) {
+         $this->data['captcha'] = $this->request->post['captcha'];
+      } else {
+         $this->data['captcha'] = '';
+      }]]></add>
+		</operation>
+
+		<operation>
+			<search position="before" ><![CDATA[$this->data['button_login'] = $this->language->get('button_login');]]></search>
+			<add><![CDATA[$this->data['entry_captcha'] = $this->language->get('entry_captcha');
+			]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after" ><![CDATA[protected function validate() {]]></search>
+			<add><![CDATA[if (empty($this->session->data['captcha']) || ($this->session->data['captcha'] != $this->request->post['captcha'])) {
+      		$this->error['captcha'] = $this->language->get('error_captcha');
+    	}
+		]]></add>
+		</operation>
+		
+		<operation>
+			<search position="before"><![CDATA[protected function validate() {]]></search>
+			<add><![CDATA[public function captcha() {
+		$this->load->library('captcha');
+		
+		$captcha = new Captcha();
+		
+		$this->session->data['captcha'] = $captcha->getCode();
+		
+		$captcha->showImage();
+	}	
+			]]></add>
+		</operation>
+
+</file>	
+
+ <file name="admin/language/english/common/login.php">
+		<operation>
+			<search position="after" ><![CDATA[$_['entry_password'] = 'Password:';]]></search>
+			<add><![CDATA[
+			$_['entry_captcha']        = 'Enter the code in the box below:';
+			$_['error_captcha']        = 'The captcha code was entered incorrectly, please try again!';
+			]]></add>
+		</operation>
+ </file>
+
+</modification>

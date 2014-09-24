@@ -1,0 +1,68 @@
+<modification>
+    <id>News</id>
+    <version>For OpenCart 1.5.x</version>
+    <vqmver>1.2.3</vqmver>
+    <author>MarketInSG</author>
+    <file name="catalog/view/theme/default/template/account/login.tpl">
+        <operation error="skip">
+            <search position="replace"><![CDATA[
+                <?php echo $column_right; ?>
+            ]]></search>
+            <add><![CDATA[
+                
+            ]]></add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/default/template/account/login.tpl">
+        <operation error="skip">
+            <search position="replace"><![CDATA[
+                <?php echo $column_right; ?>
+            ]]></search>
+            <add><![CDATA[
+                
+            ]]></add>
+        </operation>
+    </file>
+
+
+
+
+
+
+
+
+    
+    <file name="catalog/view/theme/default/template/account/register.tpl">
+        <operation error="skip">
+            <search position="replace"><![CDATA[
+                <?php echo $column_right; ?>
+            ]]></search>
+            <add><![CDATA[
+                
+            ]]></add>
+        </operation>
+    </file>
+    
+    <file name="catalog/language/chinese/account/login.php">
+        <operation error="skip">
+            <search position="after"><![CDATA[
+                $_['error_approved']               = '警告： 您的帐号还没有通过审核！';
+            ]]></search>
+            <add><![CDATA[
+                $_['text_new_register'] = '新用户注册';
+            ]]></add>
+        </operation>
+    </file>
+    <file name="catalog/controller/account/login.php">
+        <operation error="skip">
+            <search position="after"><![CDATA[
+                $this->data['text_forgotten'] = $this->language->get('text_forgotten');
+            ]]></search>
+            <add><![CDATA[
+                $this->data['text_new_register'] = $this->language->get('text_new_register');
+            ]]></add>
+        </operation>
+    </file>
+</modification>
+
+

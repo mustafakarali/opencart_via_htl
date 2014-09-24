@@ -2,7 +2,9 @@
 <?php if ($error_warning) { ?>
 <div class="warning"><?php echo $error_warning; ?></div>
 <?php } ?>
-<?php echo $column_left; ?><?php echo $column_right; ?>
+<?php echo $column_left; ?>
+                
+            
 <div id="content"><?php echo $content_top; ?>
   <div class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -65,6 +67,31 @@
                   <?php } ?></td>
           </tr>
 
+
+          <tr>
+              <td><span class="required">*</span> <?php echo $entry_captcha; ?></td>
+              <td><input type="text" name="captcha" class="form-control" value="<?php echo $captcha; ?>" placeholder="Captcha" />
+                <?php if ($error_captcha) { ?>
+                <span class="error"><?php echo $error_captcha; ?></span>
+                <?php } ?>
+              </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+                <img src="index.php?route=account/register/captcha" alt="" id="reg-captcha" />
+                <span class="c1 line-h"><?php echo $change_captcha;?><a></span>
+            </td>
+          </tr>
+          <script>
+            $(document).ready(function(){
+                $(".refresh-captcha").click(function(){
+                    var randnum = Math.random();
+                    $("#reg-captcha").attr("src","index.php?route=account/register/captcha/"+randnum);
+             })
+            })
+          </script>
+			
           <!--password end-->
       </table>
     </div>

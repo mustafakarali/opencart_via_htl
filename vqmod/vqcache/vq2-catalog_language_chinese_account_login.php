@@ -20,6 +20,9 @@ $_['entry_password']               = '密码：';
 $_['error_login']                  = '警告： 邮箱地址或密码不匹配！';
 $_['error_approved']               = '警告： 您的帐号还没有通过审核！';
 
+                $_['text_new_register'] = '新用户注册';
+            
+
 
 
 
