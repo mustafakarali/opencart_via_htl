@@ -1,5 +1,6 @@
 /*onepage checkout*/
-#onepage-checkout .large-field { width: 90%; }
+#onepage-checkout .large-field { width: 200px; }
+#onepage-checkout .smail-field{ width: 65px; }
 #onepage-checkout .tiny-field { width: 30%; }
 #onepage-checkout .checkout-content { display: block; }
 #onepage-checkout p { margin: 0; padding: 0; }

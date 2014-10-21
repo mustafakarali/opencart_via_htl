@@ -51,6 +51,10 @@ class ControllerModuleBestSeller extends Controller {
 				'href'    	 => $this->url->link('product/product', 'product_id=' . $result['product_id']),
 			);
 		}
+        //jalen
+        if(!isset($this->request->get['route'])){
+            $this->request->get['route'] = "common/home";
+        }
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/bestseller.tpl')) {
 			$this->template = $this->config->get('config_template') . '/template/module/bestseller.tpl';

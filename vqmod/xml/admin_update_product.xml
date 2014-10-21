@@ -1,0 +1,59 @@
+
+
+<modification>
+<id>admin_update_product</id>
+<file name="admin/view/template/catalog/product_form.tpl">
+    <operation>
+        <search position="after" ><![CDATA[<td><textarea name="product_description[<?php echo $language['language_id']; ?>][description]" id="description<?php echo $language['language_id']; ?>"><?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['description'] : ''; ?></textarea></td>]]></search>
+        <add><![CDATA[
+              </tr>
+              <tr>
+                <td><?php echo $entry_subtitle; ?></td>
+                <td><textarea rows="10" cols="100" name="product_description[<?php echo $language['language_id']; ?>][subtitle]" id="subtitle<?php echo $language['language_id']; ?>"><?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['subtitle'] : ''; ?></textarea></td>
+              </tr>
+			]]></add>
+    </operation>
+</file>
+<file name="admin/controller/catalog/product.php">
+    <operation>
+        <search position="after">
+            <![CDATA[$this->data['entry_description'] = $this->language->get('entry_description');]]>
+        </search>
+        <add>
+            <![CDATA[$this->data['entry_subtitle'] = $this->language->get('entry_subtitle');]]>
+        </add>
+    </operation>
+</file>
+    <file name="admin/language/chinese/catalog/product.php">
+        <operation>
+            <search position="after">
+                <![CDATA[$_['entry_description']          = '&nbsp;&nbsp;详细介绍：';]]>
+            </search>
+            <add>
+                <![CDATA[$_['entry_subtitle']          = '&nbsp;&nbsp;副标题：';]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="admin/model/catalog/product.php">
+        <operation>
+            <search position="after">
+                <![CDATA['meta_description' => $result['meta_description'],]]>
+            </search>
+            <add>
+                <![CDATA['subtitle'              => $result['subtitle'],]]>
+            </add>
+        </operation>
+    </file>
+    <file name="admin/model/catalog/product.php">
+        <operation>
+            <search position="replace">
+                <![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "'");]]>
+            </search>
+            <add>
+                <![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "',subtitle = '" . $this->db->escape($value['subtitle']) . "', tag = '" . $this->db->escape($value['tag']) . "'");]]>
+            </add>
+        </operation>
+    </file>
+
+</modification>

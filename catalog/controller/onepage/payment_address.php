@@ -134,7 +134,7 @@ class ControllerOnePagePaymentAddress extends Controller {
 				break;
 			}				
 		}
-				
+
 		if (!$json) {
 			if (isset($this->request->post['payment_address']) && $this->request->post['payment_address'] == 'existing') {
 				$this->load->model('account/address');
@@ -239,21 +239,71 @@ class ControllerOnePagePaymentAddress extends Controller {
 				if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '') {
 					$json['error']['zone'] = $this->language->get('error_zone');
 				}
+
+                //jalen
+
+                $this->load->helper('validation_form');
+
+                $phoneSection = $this->request->post['phoneSection'];
+
+                $phoneCode = $this->request->post['phoneCode'];
+
+                $phoneExt = $this->request->post['phoneExt'];
+
+                $phone = connection_phone($phoneSection,$phoneCode,$phoneExt);
+
+                $this->request->post['phone'] = $phone;
+
+                if(!validation_mobile($this->request->post['mobile']) && !$phoneSection && !$phoneCode && !$phoneExt){
+
+                    $json['error']['mobile'] = $this->language->get('error_mobile');
+
+                }elseif(!($this->request->post['mobile']) && !validation_phone($phone)){
+
+                    $json['error']['phoneExt'] = $this->language->get('error_phoneExt');
+
+                }elseif(!validation_mobile($this->request->post['mobile']) && !validation_phone($phone)){
+
+                    $json['error']['mobile'] = $this->language->get('error_mobile');
+
+                    $json['error']['phoneExt'] = $this->language->get('error_phoneExt');
+                }
+
+                $postcode = $this->request->post['postcode'];
+
+                if($postcode && !check_postcode($postcode)){
+
+                    $json['error']['postcode'] = $this->language->get('error_postcode');
+
+                }
 				
 				if (!$json) {
 					// Default Payment Address
 					$this->load->model('account/address');
-					
-					$this->session->data['payment_address_id'] = $this->model_account_address->addAddress($this->request->post);
+
+                    $this->session->data['payment_address_id'] =$this->session->data['shipping_address_id']= $this->model_account_address->addAddress($this->request->post);
 					$this->session->data['payment_country_id'] = $this->request->post['country_id'];
 					$this->session->data['payment_zone_id'] = $this->request->post['zone_id'];
 
-					unset($this->session->data['payment_method']);	
-					unset($this->session->data['payment_methods']);
+                    //返回数据
+                    $json_address = $this->model_account_address->getAddress($this->session->data['payment_address_id']);
+                    $json['address'] = '<dl class="item selected">
+                <dt>'.$json_address['firstname'].' '. $json_address['lastname'].'</dt>
+                <dd>
+                    <p class="tel">'.$json_address['mobile'].'</p>
+                    <p>'.$json_address['country'].' '.$json_address['zone'].' '.$json_address['city'].' '.$json_address['address_1'].' </p>
+                    <p>'.$json_address['address_1'].'</p>
+                </dd>
+                <dd style="display:none">
+                    <input type="radio" name="address_id" class="addressId" value="'. $this->session->data['payment_address_id'] .'">
+                </dd>
+            </dl>';
+					//unset($this->session->data['payment_method']);
+					//unset($this->session->data['payment_methods']);
 				}		
 			}		
 		}
-		
+
 		$this->response->setOutput(json_encode($json));
 	}
 }

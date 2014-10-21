@@ -421,7 +421,10 @@ class ControllerCommonFileManager extends Controller {
 		
 		if (isset($this->request->post['directory'])) {
 			if (isset($this->request->files['image']) && $this->request->files['image']['tmp_name']) {
-				$filename = basename(html_entity_decode($this->request->files['image']['name'], ENT_QUOTES, 'UTF-8'));
+				
+		// ZZZ
+		for ( $idx = 0; $idx < count($this->request->files['image']['name']); $idx++ ) {
+				$filename = basename(html_entity_decode($this->request->files['image']['name'][$idx], ENT_QUOTES, 'UTF-8'));
 				
 				if ((strlen($filename) < 3) || (strlen($filename) > 255)) {
 					$json['error'] = $this->language->get('error_filename');
@@ -433,7 +436,7 @@ class ControllerCommonFileManager extends Controller {
 					$json['error'] = $this->language->get('error_directory');
 				}
 				
-				if ($this->request->files['image']['size'] > 300000) {
+				if ($this->request->files['image']['size'][$idx] > 300000) {
 					$json['error'] = $this->language->get('error_file_size');
 				}
 				
@@ -446,7 +449,7 @@ class ControllerCommonFileManager extends Controller {
 					'application/x-shockwave-flash'
 				);
 						
-				if (!in_array($this->request->files['image']['type'], $allowed)) {
+				if (!in_array($this->request->files['image']['type'][$idx], $allowed)) {
 					$json['error'] = $this->language->get('error_file_type');
 				}
 				
@@ -462,9 +465,22 @@ class ControllerCommonFileManager extends Controller {
 					$json['error'] = $this->language->get('error_file_type');
 				}
 
-				if ($this->request->files['image']['error'] != UPLOAD_ERR_OK) {
-					$json['error'] = 'error_upload_' . $this->request->files['image']['error'];
-				}			
+				if ($this->request->files['image']['error'][$idx] != UPLOAD_ERR_OK) {
+					$json['error'] = 'error_upload_' . $this->request->files['image']['error'][$idx];
+				}	
+				
+            
+                if (!isset($json['error'])) {   
+                    // ZZZ
+                    $new_filename =  $directory . '/' . $filename;
+                    if (@move_uploaded_file( $this->request->files['image']['tmp_name'][$idx], $new_filename)) {        
+                        $json['success'] = $this->language->get('text_uploaded');
+                        $json['image'][] = rtrim('data/' . str_replace('../', '', $this->request->post['directory']), '/') . '/' . $filename;
+                    } else {
+                        $json['error'] = $this->language->get('error_uploaded');
+                    }
+                }
+		}//foreach
 			} else {
 				$json['error'] = $this->language->get('error_file');
 			}
@@ -475,15 +491,18 @@ class ControllerCommonFileManager extends Controller {
 		if (!$this->user->hasPermission('modify', 'common/filemanager')) {
       		$json['error'] = $this->language->get('error_permission');  
     	}
-		
+		/*
 		if (!isset($json['error'])) {	
-			if (@move_uploaded_file($this->request->files['image']['tmp_name'], $directory . '/' . $filename)) {		
+                    // ZZZ
+                    $new_filename =  $directory . '/' . $filename;
+			if (@move_uploaded_file($this->request->files['image']['tmp_name'], $new_filename)) {		
 				$json['success'] = $this->language->get('text_uploaded');
+                $json['image'][] = rtrim('data/' . str_replace('../', '', $this->request->post['directory']), '/') . '/' . $filename;
 			} else {
 				$json['error'] = $this->language->get('error_uploaded');
 			}
 		}
-		
+		*/
 		$this->response->setOutput(json_encode($json));
 	}
 } 

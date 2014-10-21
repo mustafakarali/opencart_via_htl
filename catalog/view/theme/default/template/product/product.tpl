@@ -31,13 +31,16 @@
         <?php if ($reward) { ?>
         <span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
         <?php } ?>
-        <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
+
+      </div>
       <?php if ($price) { ?>
-      <div class="price"><?php echo $text_price; ?>
+      <div class="price">
         <?php if (!$special) { ?>
-          <span class="T1 c4 fz24"><?php echo $price; ?></span>
+            <div class="Prorow"><span class="tjt1 c1 "><?php echo $text_now_price;?></span><span class="T1 c4 fz24"><?php echo $price; ?></span></div>
+
         <?php } else { ?>
-        <span class="price-old"><?php echo $price; ?></span> <span class="price-new"><?php echo $special; ?></span>
+          <div class="Prorow"><span class="tjt1 c1 "><?php echo $text_price; ?></span><span class="T1"> <?php echo $price; ?></span></div>
+          <div class="Prorow"><span class="tjt1 c1 f1"><?php echo $text_now_price;?></span><span class="T1 c4 fz24"><?php echo $special; ?></span></div>
         <?php } ?>
         <br />
         <?php if ($tax) { ?>
@@ -117,11 +120,60 @@
         <br />
         <?php } ?>
         <?php if ($option['type'] == 'image') { ?>
-        <div id="option-<?php echo $option['product_option_id']; ?>" class="option">
+        <div id="option-<?php echo $option['product_option_id']; ?>" class="option tb-skin">
+           <dl class="tb-prop">
+               <dt>
+                   <?php if ($option['required']) { ?>
+                   <span class="required">*</span>
+                   <?php } ?>
+                   <?php echo $option['name']; ?>:
+               </dt>
+               <dd>
+                   <ul>
+                       <?php foreach ($option['option_value'] as $option_value) { ?>
+                           <li title="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" date-value="<?php echo $option_value['product_option_value_id']; ?>" data-thumb-image="<?php echo $option_value['thumb2']?>" data-popup-image="<?php echo $option_value['popup']?>">
+                               <a herf="#" style="background: url(<?php echo $option_value['image']; ?>) center no-repeat;">
+                                   <span><?php echo $option_value['name']; ?>
+                                       <?php if ($option_value['price']) { ?>
+                                       (<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
+                                       <?php } ?>
+                                   </span>
+                               </a>
+                               <!--<img src="<?php echo $option_value['image']; ?>" alt="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" title="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" />-->
+                           </li>
+                       <?php } ?>
+                       <input type="hidden" name="option[<?php echo $option['product_option_id']; ?>]" value="" id="option-[<?php echo $option['product_option_id']; ?>]" />
+                   </ul>
+               </dd>
+           </dl>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $(".tb-prop dd ul li").click(
+                        function(){
+                            $(this).addClass("tb-selected");
+                            $(this).children().after('<i class="Yes samebg dis"></i>');
+                            var thumb2 = $(this).attr("data-thumb-image");
+                            var popup = $(this).attr("data-popup-image");
+
+                            $(".zoomPad #image").attr("src",thumb2);
+                            $(".zoomWindow img").attr("src",popup);
+                            $(".jqzoom").attr("href",popup);
+
+                            $(this).siblings().removeClass("tb-selected");
+                            $(this).siblings().find("i").remove();
+                            var tb_option_val = $(this).attr("date-value");
+                            if(tb_option_val){
+                                $("#option-\\[<?php echo $option['product_option_id']; ?>\\]").val(tb_option_val);
+                            }
+                        }
+                    );
+                })
+            </script>
+            <!--
           <?php if ($option['required']) { ?>
           <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
+          <b><?php echo $option['name']; ?>:</b>
           <table class="option-image">
             <?php foreach ($option['option_value'] as $option_value) { ?>
             <tr>
@@ -134,7 +186,7 @@
                 </label></td>
             </tr>
             <?php } ?>
-          </table>
+          </table>-->
         </div>
         <br />
         <?php } ?>
@@ -204,8 +256,14 @@
       <?php } ?>
       <div class="cart">
         <div>
-            <span class="c1"><?php echo $text_qty; ?></span>
-            <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" /><br/><br/>
+            <span class="c1 f1"><?php echo $text_qty; ?></span>
+            <span class="T1">
+                <a href="javascript:" class="tb-reduce J_Reduce f1" rel="nofollow">-</a>
+                <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" class="tb-text f1" />
+                <a href="javascript:" class="tb-increase J_Increase f1" rel="nofollow">+</a>
+                <span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<?php echo $text_stock; ?></span> <?php echo $stock; ?><br/><br/>
+            </span>
             <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
             &nbsp;
             <input type="button" value="" id="button-buy-now" class="btn btn-buy" />
@@ -397,6 +455,7 @@ $('#button-cart').bind('click', function() {
                             $('#option-' + i).after('<span class="error">' + json['error']['option'][i] + '</span>');
                         }
                     }
+                    return false;
                 }
                 window.location.href = "index.php?route=onepage/checkout";
             }
@@ -502,5 +561,23 @@ $(document).ready(function() {
 	});
 	$('.time').timepicker({timeFormat: 'h:m'});
 });
-//--></script> 
+//--></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".tb-reduce").click(function(){
+
+            var text = parseInt($(".tb-text").val());
+            if(text == 1){
+                return false;
+            }else{
+                $(".tb-text").val(text-1);
+            }
+        })
+        $(".tb-increase").click(function(){
+
+            var text = parseInt($(".tb-text").val());
+            $(".tb-text").val(text+1);
+        })
+    })
+</script>
 <?php echo $footer; ?>

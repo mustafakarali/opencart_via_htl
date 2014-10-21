@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       = '特色商品';
+$_['heading_title']       = '推荐产品';
 
 // Text
 $_['text_module']         = '模块管理';
@@ -11,7 +11,7 @@ $_['text_column_left']    = '左列显示';
 $_['text_column_right']   = '右列显示';
 
 // Entry
-$_['entry_product']       = '特色商品：<br /><span class="help">(自动完成)</span>';
+$_['entry_product']       = '推荐产品：<br /><span class="help">(自动完成)</span>';
 $_['entry_limit']         = '限量：';
 $_['entry_image']         = '图片大小 (W x H)：';
 $_['entry_layout']        = '布局：';

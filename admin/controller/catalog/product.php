@@ -718,7 +718,7 @@ class ControllerCatalogProduct extends Controller {
 		} else {
 			$this->data['product_description'] = array();
 		}
-		
+
 		if (isset($this->request->post['model'])) {
       		$this->data['model'] = $this->request->post['model'];
     	} elseif (!empty($product_info)) {

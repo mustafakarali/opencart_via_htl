@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title']       = 'Recently Viewed';
+$_['heading_title']       = '浏览历史记录';
 
 // Text
-$_['text_module']         = 'Modules';
+$_['text_module']         = '模块管理';
 $_['text_success']        = 'Success: You have modified module featured!';
 $_['text_content_top']    = 'Content Top';
 $_['text_content_bottom'] = 'Content Bottom';

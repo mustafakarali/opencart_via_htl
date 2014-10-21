@@ -24,6 +24,7 @@
 	    <div id="payment-address">
 	      <div class="checkout-heading"><span><?php echo $text_checkout_payment_address; ?></span></div>
 	      <div class="checkout-content"></div>
+            <?php echo $payment_address;?>
 	    </div>
     <?php } ?>
     <?php if ($shipping_required) { ?>
@@ -35,7 +36,10 @@
     <div id="op-middle">
 	    <div id="shipping-method">
 	      <div class="checkout-heading"><?php echo $text_checkout_shipping_method; ?></div>
-	      <div class="checkout-content"></div>
+	      <div class="checkout-content">
+              <?php echo $shipping_method;?>
+	      </div>
+
 	    </div>
     <?php }else{ ?>
     </div>
@@ -238,11 +242,18 @@ function change_payment_address(reload_flag){
 				
 				if (json['error']['country']) {
 					$('#payment-address select[name=\'country_id\']').after('<span class="error">' + json['error']['country'] + '</span>');
-				}	
-				
-				if (json['error']['zone']) {
-					$('#payment-address select[name=\'zone_id\']').after('<span class="error">' + json['error']['zone'] + '</span>');
 				}
+
+                if (json['error']['zone']) {
+                    $('#payment-address select[name=\'zone_id\']').after('<span class="error">' + json['error']['zone'] + '</span>');
+                }
+                //jalen
+                if (json['error']['mobile']) {
+                    $('#payment-address input[name=\'mobile\']').after('<span class="error">' + json['error']['mobile'] + '</span>');
+                }
+                if (json['error']['phoneExt']) {
+                    $('#payment-address input[name=\'phoneExt\']').after('<span class="error">' + json['error']['phoneExt'] + '</span>');
+                }
 			} else {
 				<?php if ($logged) { ?>
 					if (reload_flag == 1) {
@@ -263,6 +274,10 @@ function change_payment_address(reload_flag){
 					<?php }; ?>
 				<?php }; ?>
 				load_payment_method();
+                $("#payment-existing .item").removeClass("selected");
+                $("#payment-existing").prepend(json['address']);
+                $("#payment-new").hide();
+                $(".buy-common-dialog-mask").remove();
 			}	  
 		}
 	});
@@ -511,12 +526,12 @@ function register(){
 				
 				if (json['error']['password']) {
 					$('#payment-address input[name=\'password\']').after('<span class="error">' + json['error']['password'] + '</span>');
-				}	
-				
-				if (json['error']['confirm']) {
-					$('#payment-address input[name=\'confirm\']').after('<span class="error">' + json['error']['confirm'] + '</span>');
-				}																																	
-			}
+				}
+
+                if (json['error']['confirm']) {
+                    $('#payment-address input[name=\'confirm\']').after('<span class="error">' + json['error']['confirm'] + '</span>');
+                }
+            }
 		}
 	});
 }
@@ -598,8 +613,8 @@ $(document).ready(function() {
 });		
 <?php } else { ?>
 $(document).ready(function() {
-	load_payment_address();
-	load_shipping_address();
+	//load_payment_address();
+	//load_shipping_address();
 });
 <?php } ?>
 //--></script> 

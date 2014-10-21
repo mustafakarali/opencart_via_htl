@@ -101,7 +101,7 @@ class ControllerAccountLogin extends Controller {
 			} else {
 				$this->redirect($this->url->link('account/account', '', 'SSL')); 
 			}
-    	}  
+    	}
 		
       	$this->data['breadcrumbs'] = array();
 
@@ -137,6 +137,12 @@ class ControllerAccountLogin extends Controller {
 
     	$this->data['button_continue'] = $this->language->get('button_continue');
 		$this->data['button_login'] = $this->language->get('button_login');
+
+        //jalen 添加返回url
+        if(isset($this->request->get['redirect'])){
+            $this->data['return_url'] = $this->request->get['redirect'];
+        }
+
 
 		if (isset($this->error['warning'])) {
 			$this->data['error_warning'] = $this->error['warning'];

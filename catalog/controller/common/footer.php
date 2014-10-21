@@ -21,6 +21,50 @@ class ControllerCommonFooter extends Controller {
 		$this->load->model('catalog/information');
 		
 		$this->data['informations'] = array();
+        $this->data['buy_process'] = array();
+        $this->data['shipping_method'] = array();
+        $this->data['change_product'] = array();
+        $this->data['pay_method'] = array();
+        //购物流程
+        foreach($this->model_catalog_information->getInformationsIn('6,4') AS $result){
+
+            if ($result['bottom']) {
+                $this->data['buy_process'][] = array(
+                    'title' => $result['title'],
+                    'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+                );
+            }
+        }
+        //配送方式
+        foreach($this->model_catalog_information->getInformationsIn('3,5,7') AS $result){
+
+            if ($result['bottom']) {
+                $this->data['shipping_method'][] = array(
+                    'title' => $result['title'],
+                    'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+                );
+            }
+        }
+        //支付方式
+        foreach($this->model_catalog_information->getInformationsIn('8') AS $result){
+
+            if ($result['bottom']) {
+                $this->data['pay_method'][] = array(
+                    'title' => $result['title'],
+                    'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+                );
+            }
+        }
+        //退换货
+        foreach($this->model_catalog_information->getInformationsIn('9,10') AS $result){
+
+            if ($result['bottom']) {
+                $this->data['change_product'][] = array(
+                    'title' => $result['title'],
+                    'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+                );
+            }
+        }
 
 		foreach ($this->model_catalog_information->getInformations() as $result) {
 			if ($result['bottom']) {

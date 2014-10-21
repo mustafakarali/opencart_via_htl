@@ -2,15 +2,15 @@
 class ControllerOnePageShippingMethod extends Controller {
   	public function index() {
 		$this->language->load('onepage/checkout');
-		
+
 		$this->load->model('account/address');
-		
+
 		if ($this->customer->isLogged() && isset($this->session->data['shipping_address_id'])) {					
 			$shipping_address = $this->model_account_address->getAddress($this->session->data['shipping_address_id']);		
 		} elseif (isset($this->session->data['guest'])) {
 			$shipping_address = $this->session->data['guest']['shipping'];
 		}
-		
+
 		if (!empty($shipping_address)) {
 			// Shipping Methods
 			$quote_data = array();
@@ -51,7 +51,7 @@ class ControllerOnePageShippingMethod extends Controller {
 		/*$this->data['text_comments'] = $this->language->get('text_comments'); DEL */
 	
 		$this->data['button_continue'] = $this->language->get('button_continue');
-		
+
 		if (empty($this->session->data['shipping_methods'])) {
 			if (!isset($this->session->data['shipping_country_id'])) {
 				$this->data['error_warning'] = 'Waiting: ' . $this->language->get('text_checkout_payment_shipping_address'); // ADD

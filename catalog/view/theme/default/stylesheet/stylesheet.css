@@ -9,16 +9,13 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-body, td, th, input, textarea, select, a {
-	font-size: 12px;
-}
 h1, .welcome {
 	color: #636E75;
 	font: Verdana;
 	margin-top: 0px;
 	margin-bottom: 20px;
 	font-size: 32px;
-	font-weight: normal;
+	font-weight: blod;
 	text-shadow: 0 0 1px rgba(0, 0, 0, .01);
     height: 40px;
 }
@@ -397,6 +394,10 @@ label {
 }
 .breadcrumb .active{
     color:#666666;
+    cursor: default;
+}
+.breadcrumb .active:hover{
+    text-decoration: none;
 }
 .success, .warning, .attention, .information {
 	padding: 10px 10px 10px 33px;
@@ -627,8 +628,10 @@ a.button:hover, input.button:hover {
 	display: none;
 }
 .htabs a.selected {
-	padding-bottom: 7px;
+	padding-bottom: 5px;
+    border-top: 2px solid #8d0202;
 	background: #FFFFFF;
+    color:#8d0202;
 }
 .tab-content {
 	border-left: 1px solid #DDDDDD;
@@ -643,6 +646,7 @@ a.button:hover, input.button:hover {
 .box {
     margin-top: 10px;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 .box .box-heading {
 	-webkit-border-radius: 7px 7px 0px 0px;
@@ -686,9 +690,10 @@ a.button:hover, input.button:hover {
 	margin-bottom: 0px;
 }
 .box-product .image img {
+    display: block;
 }
 .box-product .name a {
-	font-weight: bold;
+    color:#363636;
 	text-decoration: none;
 	display: block;
 	margin-bottom: 4px;
@@ -698,20 +703,16 @@ a.button:hover, input.button:hover {
     color:#d20101;
     text-decoration:underline;
 }
-.box-product .price {
+.box-product .price,.price {
 	display: block;
-	font-weight: bold;
 	color: #b80101;
 	margin-bottom: 4px;
     padding: 3px 15px;
-    font-size: 15px;
+    font-size: 14px;
 }
-.box-product .price-old {
+.box-product .price-old,.price-old {
 	color: #afb0b0;
 	text-decoration: line-through;
-}
-.box-product .price-new {
-	font-weight: bold;
 }
 .box-product .rating {
 	display: block;
@@ -1001,7 +1002,6 @@ ul.box-filter > li ul {
 }
 .product-grid .price {
 	display: block;
-	font-weight: bold;
 	color: #b80101;
 	margin-bottom: 4px;
     padding: 0 15px;
@@ -1010,9 +1010,6 @@ ul.box-filter > li ul {
 .product-grid .price-old {
 	color: #afb0b0;
 	text-decoration: line-through;
-}
-.product-grid .price-new {
-	font-weight: bold;
 }
 .product-grid .price .price-tax {
 	display: none;
@@ -1053,8 +1050,7 @@ ul.box-filter > li ul {
 .product-info .image {
 	border: 1px solid #E7E7E7;
 	float: left;
-	margin-bottom: 20px;
-	padding: 10px;
+	margin-bottom: 5px;
 	text-align: center;
 }
 .product-info .image-additional {
@@ -1063,6 +1059,11 @@ ul.box-filter > li ul {
 	clear: both;
 	overflow: hidden;
 }
+.product-info .image-additional .zoomThumbActive img{
+    border:1px solid #e4393c;
+    padding: 0;
+}
+
 .product-info .image-additional img {
 	border: 1px solid #E7E7E7;
 }
@@ -1093,7 +1094,6 @@ ul.box-filter > li ul {
 	padding: 0px 5px 10px 5px;
 	margin-bottom: 10px;
 	font-size: 15px;
-	font-weight: bold;
 	color: #333333;
 }
 .product-info .price-old {
@@ -1531,7 +1531,7 @@ ul.box-filter > li ul {
 /* checkout */
 .checkout-heading {
 	background: #F8F8F8;
-	border: 1px solid #DBDEE1;
+    border-bottom: 2px solid #b80101;
 	padding: 8px;
 	font-weight: bold;
 	font-size: 13px;

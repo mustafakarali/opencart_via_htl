@@ -19,7 +19,8 @@ $_['text_none']             = ' --- 无 --- ';
 $_['text_select']           = ' --- 请选择 --- ';
 $_['text_all_zones']        = '所有区域';
 $_['text_pagination']       = '显示 {start} - {end} / {total} (共计 {pages} 页)';
-$_['text_separator']        = ' &raquo; ';
+//$_['text_separator']        = ' &raquo; ';
+$_['text_separator']        = ' > ';
 
 // Buttons
 $_['button_add_address']    = '添加地址';

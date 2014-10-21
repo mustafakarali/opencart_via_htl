@@ -188,7 +188,7 @@ class ControllerCommonHeader extends Controller {
 				);
 			}			
 		}
-		
+
 		$this->template = 'common/header.tpl';
 		
 		$this->render();

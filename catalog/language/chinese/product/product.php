@@ -36,8 +36,8 @@ $_['entry_bad']           = '差评';
 $_['entry_captcha']       = '请在下框输入验证码：';
 
 // Tabs
-$_['tab_description']     = '产品详细介绍';
-$_['tab_attribute']       = '规格';
+$_['tab_description']     = '商品介紹';
+$_['tab_attribute']       = '规格參數';
 $_['tab_review']          = '商品评价 (已有%s条评价)';
 $_['tab_related']         = '关联商品'; 
 

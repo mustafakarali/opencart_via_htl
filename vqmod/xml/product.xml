@@ -1,0 +1,69 @@
+<modification>
+    <id>product</id>
+    <version>For OpenCart 1.5.x</version>
+    <vqmver>1.2.3</vqmver>
+    <author>jalen</author>
+    <file name="catalog/controller/product/product.php">
+        <operation>
+            <search position="after"><![CDATA[
+				$this->data['points'] = $product_info['points'];
+			]]></search>
+            <add><![CDATA[
+				$this->data['subtitle'] = $product_info['subtitle'];
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/model/catalog/product.php">
+        <operation>
+            <search position="after"><![CDATA[
+				'description'      => $query->row['description'],
+			]]></search>
+            <add><![CDATA[
+				'subtitle'      => $query->row['subtitle'],
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/view/theme/default/template/product/product.tpl">
+        <operation>
+            <search position="before"><![CDATA[
+				<?php if ($manufacturer) { ?>
+			]]></search>
+            <add><![CDATA[
+				<h2><?php echo $subtitle ;?></h2>
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/language/chinese/product/product.php">
+        <operation>
+            <search position="after"><![CDATA[
+				$_['text_instock']        = '有库存';
+			]]></search>
+            <add><![CDATA[
+				$_['text_now_price']        = '现价:';
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/language/chinese/product/product.php">
+        <operation>
+            <search position="replace"><![CDATA[
+				$_['text_price']          = '销售价：';
+			]]></search>
+            <add><![CDATA[
+				$_['text_price']          = '市场价：';
+			]]></add>
+        </operation>
+    </file>
+    <file name="catalog/controller/product/product.php">
+        <operation>
+            <search position="after"><![CDATA[
+				$this->data['text_price'] = $this->language->get('text_price');
+			]]></search>
+            <add><![CDATA[
+				$this->data['text_now_price'] = $this->language->get('text_now_price');
+			]]></add>
+        </operation>
+    </file>
+
+
+
+</modification>

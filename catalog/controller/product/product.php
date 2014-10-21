@@ -300,13 +300,13 @@ class ControllerProductProduct extends Controller {
 			} else {
 				$this->data['popup'] = '';
 			}
-			
+
 			if ($product_info['image']) {
 				$this->data['thumb'] = $this->model_tool_image->resize($product_info['image'], $this->config->get('config_image_thumb_width'), $this->config->get('config_image_thumb_height'));
 			} else {
 				$this->data['thumb'] = '';
 			}
-			
+
 			$this->data['images'] = array();
 			
 			$results = $this->model_catalog_product->getProductImages($this->request->get['product_id']);
@@ -329,6 +329,7 @@ class ControllerProductProduct extends Controller {
 			} else {
 				$this->data['special'] = false;
 			}
+
 			
 			if ($this->config->get('config_tax')) {
 				$this->data['tax'] = $this->currency->format((float)$product_info['special'] ? $product_info['special'] : $product_info['price']);
@@ -366,6 +367,8 @@ class ControllerProductProduct extends Controller {
 								'option_value_id'         => $option_value['option_value_id'],
 								'name'                    => $option_value['name'],
 								'image'                   => $this->model_tool_image->resize($option_value['image'], 50, 50),
+                                'popup'                   => $this->model_tool_image->resize($option_value['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height')),
+                                'thumb2'                  => $this->model_tool_image->resize($option_value['image'], $this->config->get('config_image_thumb_width'), $this->config->get('config_image_thumb_height')),
 								'price'                   => $price,
 								'price_prefix'            => $option_value['price_prefix']
 							);
@@ -391,7 +394,7 @@ class ControllerProductProduct extends Controller {
 					);						
 				}
 			}
-							
+
 			if ($product_info['minimum']) {
 				$this->data['minimum'] = $product_info['minimum'];
 			} else {

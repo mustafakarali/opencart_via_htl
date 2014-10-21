@@ -1,3 +1,4 @@
+<div class="clear"></div>
 <div class="box">
   <div class="bott">
       <span class="f1 fz14"><?php echo $heading_title; ?><i class="samebg jt1 f1"></i> </span>
@@ -22,7 +23,6 @@
         <?php if ($product['rating']) { ?>
         <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
         <?php } ?>
-        <div class="cart"><input type="button" value="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button" /></div>
       </div>
       <?php } ?>
     </div>

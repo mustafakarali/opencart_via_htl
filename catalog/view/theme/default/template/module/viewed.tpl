@@ -1,6 +1,8 @@
 <?php if (count($products) > 0) { ?>
 <div class="box">
-  <div class="box-heading"><?php echo $heading_title; ?></div>
+  <div class="bott htl-border">
+      <span class="fz14" style="background: #FFFFFF;color: #000000"><?php echo $heading_title; ?></span>
+  </div>
   <div class="box-content">
     <div class="box-product">
       <?php foreach ($products as $product) { ?>
@@ -21,7 +23,6 @@
         <?php if ($product['rating']) { ?>
         <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
         <?php } ?>
-        <div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button"><span><?php echo $button_cart; ?></span></a></div>
       </div>
       <?php } ?>
     </div>

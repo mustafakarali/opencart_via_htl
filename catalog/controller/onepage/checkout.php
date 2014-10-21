@@ -7,7 +7,7 @@ class ControllerOnePageCheckout extends Controller {
     	}
         //没有登录 jalen
 		if(!$this->customer->isLogged()){
-            $this->redirect($this->url->link('account/login'));
+            $this->redirect($this->url->link('account/login',"redirect=". HTTP_SERVER ."?route=onepage/checkout"));
         }
 		// Validate minimum quantity requirments.			
 		$products = $this->cart->getProducts();
@@ -89,7 +89,9 @@ class ControllerOnePageCheckout extends Controller {
 			'common/content_top',
 			'common/content_bottom',
 			'common/footer',
-			'common/header'	
+			'common/header',
+            'onepage/payment_address',
+            'onepage/shipping_method'
 		);
 				
 		$this->response->setOutput($this->render());

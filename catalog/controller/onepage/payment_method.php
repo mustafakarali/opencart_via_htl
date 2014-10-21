@@ -72,8 +72,7 @@ class ControllerOnePagePaymentMethod extends Controller {
 		$this->data['text_comments'] = $this->language->get('text_comments');
 		$this->data['shipping_required'] = $this->cart->hasShipping();
 		$this->data['button_continue'] = $this->language->get('button_continue');
-   
-		if (empty($this->session->data['payment_methods'])) {
+   if (empty($this->session->data['payment_methods'])) {
 			if (!isset($this->session->data['payment_country_id'])) {
 				$this->data['shipping_required'] = $this->cart->hasShipping();
 				$this->data['text_checkout_payment_address'] = $this->data['shipping_required'] ? $this->language->get('text_checkout_payment_shipping_address') : $this->language->get('text_checkout_payment_address');

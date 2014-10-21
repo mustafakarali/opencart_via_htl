@@ -1,7 +1,7 @@
 <?php
 class ModelAccountAddress extends Model {
 	public function addAddress($data) {
-		$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$this->customer->getId() . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', company_id = '" . $this->db->escape(isset($data['company_id']) ? $data['company_id'] : '') . "', tax_id = '" . $this->db->escape(isset($data['tax_id']) ? $data['tax_id'] : '') . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', city = '" . $this->db->escape($data['city']) . "', zone_id = '" . (int)$data['zone_id'] . "', country_id = '" . (int)$data['country_id'] . "'");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$this->customer->getId() . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', company_id = '" . $this->db->escape(isset($data['company_id']) ? $data['company_id'] : '') . "', tax_id = '" . $this->db->escape(isset($data['tax_id']) ? $data['tax_id'] : '') . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', city = '" . $this->db->escape($data['city']) . "', zone_id = '" . (int)$data['zone_id'] . "', country_id = '" . (int)$data['country_id'] . "',mobile = '". $data['mobile'] ."',phone='". $data['phone'] ."'");
 		
 		$address_id = $this->db->getLastId();
 		
@@ -69,6 +69,8 @@ class ModelAccountAddress extends Model {
 				'country'        => $country,	
 				'iso_code_2'     => $iso_code_2,
 				'iso_code_3'     => $iso_code_3,
+                'mobile'     => $address_query->row['mobile'],
+                'phone'     => $address_query->row['phone'],
 				'address_format' => $address_format
 			);
 			
@@ -122,7 +124,9 @@ class ModelAccountAddress extends Model {
 				'zone_id'        => $result['zone_id'],
 				'zone'           => $zone,
 				'zone_code'      => $zone_code,
-				'country_id'     => $result['country_id'],
+                'country_id'     => $result['country_id'],
+                'mobile'     => $result['mobile'],
+                'phone'     => $result['phone'],
 				'country'        => $country,	
 				'iso_code_2'     => $iso_code_2,
 				'iso_code_3'     => $iso_code_3,
